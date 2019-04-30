@@ -27,7 +27,8 @@ Les archétypes sont des squelettes de pages préconfigurées avec un Front Matt
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
       <guid>https://docs.folkets.dk/fr/cont/markdown/</guid>
-      <description>Cette page est une copie de la [doc de Grav](http://learn.getgrav.org/content/markdown). La seule différence porte sur la personalisation des images ([taille](#resizing-image), [ajout de classes CSS](#add-css-classes)...) Pour des raisons évidentes, cette page n&#39;a pas été traduites en français 😁  Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
+      <description>Cette page est une copie de la doc de Grav. La seule différence porte sur la personalisation des images (taille, ajout de classes CSS&amp;hellip;) Pour des raisons évidentes, cette page n&amp;rsquo;a pas été traduites en français 😁
+ Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
 Markdown is a better way to write HTML, without all the complexities and ugliness that usually accompanies it.</description>
     </item>
     
@@ -126,8 +127,10 @@ graph LR; A[Bords droits] --|Lien texte| B(Bords arondis) B -- C{Décision} C --
       <guid>https://docs.folkets.dk/fr/shortcodes/notice/</guid>
       <description>Le shortcode Notice permet d&amp;rsquo;afficher 4 types de message pour vous aider à structurer votre contenu.
 Note {{% notice note %}} Une notice de type *note* {{% /notice %}}  s&amp;rsquo;affiche comme
-Une notice de type *note*  Info {{% notice info %}} Une notice de type *info* {{% /notice %}}  s&amp;rsquo;affiche comme
-Une notice de type *info*  Tip {{% notice tip %}} Une notice de type *tip* {{% /notice %}}  s&amp;rsquo;affiche comme</description>
+Une notice de type note
+ Info {{% notice info %}} Une notice de type *info* {{% /notice %}}  s&amp;rsquo;affiche comme
+Une notice de type info
+ Tip {{% notice tip %}} Une notice de type *tip* {{% /notice %}}  s&amp;rsquo;affiche comme</description>
     </item>
     
     <item>

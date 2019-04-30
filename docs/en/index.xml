@@ -29,7 +29,8 @@ hugo new --kind chapter &amp;lt;name&amp;gt;/_index.</description>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
       <guid>https://docs.folkets.dk/en/cont/markdown/</guid>
-      <description>This page is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown). Only difference is information about image customization ([resizing](#resizing-image), [add CSS classes](#add-css-classes)...)  Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
+      <description>This page is a shameful copy of the great Grav original page. Only difference is information about image customization (resizing, add CSS classes&amp;hellip;)
+ Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
 Markdown is a better way to write HTML, without all the complexities and ugliness that usually accompanies it.</description>
     </item>
     
@@ -140,9 +141,12 @@ graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[
       <guid>https://docs.folkets.dk/en/shortcodes/notice/</guid>
       <description>The notice shortcode shows 4 types of disclaimers to help you structure your page.
 Note {{% notice note %}} A notice disclaimer {{% /notice %}}  renders as
-A notice disclaimer  Info {{% notice info %}} An information disclaimer {{% /notice %}}  renders as
-An information disclaimer  Tip {{% notice tip %}} A tip disclaimer {{% /notice %}}  renders as
-A tip disclaimer  Warning {{% notice warning %}} An warning disclaimer {{% /notice %}}  renders as</description>
+A notice disclaimer
+ Info {{% notice info %}} An information disclaimer {{% /notice %}}  renders as
+An information disclaimer
+ Tip {{% notice tip %}} A tip disclaimer {{% /notice %}}  renders as
+A tip disclaimer
+ Warning {{% notice warning %}} An warning disclaimer {{% /notice %}}  renders as</description>
     </item>
     
     <item>

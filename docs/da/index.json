@@ -32,7 +32,7 @@
 	"title": "Hjælp til FOLKETS",
 	"tags": [],
 	"description": "",
-	"content": " Hjælp til FOLKETS Vi starter her.\nLearn theme works with a _page tree structure_ to organize content : All contents are pages, which belong to other pages. [read more about this]()  "
+	"content": " Hjælp til FOLKETS Vi starter her.\nLearn theme works with a page tree structure to organize content : All contents are pages, which belong to other pages. [read more about this]()\n "
 },
 {
 	"uri": "https://docs.folkets.dk/da/tags/",
