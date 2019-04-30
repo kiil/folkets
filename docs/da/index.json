@@ -21,6 +21,20 @@
 	"content": " Kapitel 3 Redaktion "
 },
 {
+	"uri": "https://docs.folkets.dk/da/admin/",
+	"title": "Admin",
+	"tags": [],
+	"description": "",
+	"content": " Kapitel 4 Admin "
+},
+{
+	"uri": "https://docs.folkets.dk/da/admin/brugere/",
+	"title": "Brugere",
+	"tags": [],
+	"description": "",
+	"content": "Den enkelte bruger\n/brugere/[user:name]  Påkrævede felter: Fornavn, Efternavn\nAnbefalede felter: Kort bio\nOversigt - brugere\n/brugere  "
+},
+{
 	"uri": "https://docs.folkets.dk/da/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -35,9 +49,30 @@
 	"content": " Hjælp til FOLKETS Vi starter her.\nLearn theme works with a page tree structure to organize content : All contents are pages, which belong to other pages. [read more about this]()\n "
 },
 {
+	"uri": "https://docs.folkets.dk/da/admin/indholdstyper/",
+	"title": "Indholdstyper",
+	"tags": [],
+	"description": "",
+	"content": " Baseret på tilladelser og arbejdsgange. Se også \u0026ldquo;indholdstype term\u0026rdquo;. Tre separate typer med adskilte arbejdsgange\nBrugerskabt Anmeldelse\nDebatindlæg\nMarketer Advertorial\nLink\nRedaktionelt Redaktionel tekst\nLyd\n"
+},
+{
 	"uri": "https://docs.folkets.dk/da/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "https://docs.folkets.dk/da/admin/taksonomi/",
+	"title": "Taksonomi",
+	"tags": [],
+	"description": "",
+	"content": " Brands aviser, blogs, magasiner og andre udgivelser, produkter og ja, brands De enkelte brands:\n/brands/[term:name]  Oversigt:\n/brands  Bemærk at maskinnavnet er publikation (af historiske årsager)\nBrands skal have unikt navn som ikke må krydse med emne navne\nBemærk at views så bør være 2 dyb så vi kan få eventuelle undertermer med for de forkellige brands\nEmner - \u0026ldquo;evigt aktuelle\u0026rdquo; områder Maks 2 dyb\n/emner/[term:parent]/[term:name]  Bemærk at views så også bør være 2 dyb Oversigt:\n/emner  Maskinnavn: sektion (af historiske årsager)\nTyper - Indholdstype term Eneste som er direkte på roden\n/[term:name]  Analyser\nAnmeldelser\nArtikler Ledere\nOrganisationer Den enkelte\n/organisationer/[term:name]  Oversigt\n/organisationer  Personer Den enkelte\n/personer/[term:name]  Oversigt\n/personer  Serier - til at gruppere indlæg i en serie Den enkelte\n/serier/[term:name]  Oversigt\n/serier  Temaer - \u0026ldquo;tidstypiske\u0026rdquo; eller områder som er aktuelle for en periode Det enkelte\n/temaer/[term:name]  Oversigt\n/temaer  Vi har ikke sektioner, men brands kan bneytte sig af emner, temaer, serier, perosner og orgainsation\n"
+},
+{
+	"uri": "https://docs.folkets.dk/da/admin/tokens/",
+	"title": "Tokens",
+	"tags": [],
+	"description": "",
+	"content": " Tokens baseret på moduler Samlet antal læsninger af indhold\n[gac|all]  Tokens baseret på views Justgage Til \u0026ldquo;målerne\u0026rdquo;\nNodes Artikler seneste uge\n[views:embed:stats_nodes:embed_2]  Artikel-delinger seneste uge\n[views:embed:stats_nodes:embed_3]  Artikel-læsninger seneste uge\n[views:embed:stats_nodes:embed_5]  Users Nye betalende brugere seneste uge\n[views:embed:stats_users:embed_2]  Terms Brands / medier\n[views:embed:stats_terms:embed_1]  \u0026ldquo;Ren\u0026rdquo; værdi Nodes [views:embed:stats_nodes:embed_4]  Terms Brands / medier\n[views:embed:stats_terms:embed_2]  Personer\n[views:embed:stats_terms:embed_3]  Organisationer\n[views:embed:stats_terms:embed_4]  Users Brugere som har udgivet mindst en artikel\n[views:embed:stats_users:embed_3]  Betalende brugere (abo) i alt\n[views:embed:stats_users:embed_1]  "
 }]

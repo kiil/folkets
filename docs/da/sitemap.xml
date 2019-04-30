@@ -15,6 +15,14 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/brugere/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -54,6 +62,10 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/indholdstyper/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -71,6 +83,14 @@
                 hreflang="da"
                 href="https://docs.folkets.dk/da/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/taksonomi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/tokens/</loc>
   </url>
   
 </urlset>
