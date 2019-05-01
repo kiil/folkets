@@ -56,6 +56,13 @@
 	"content": " Baseret på tilladelser og arbejdsgange. Se også \u0026ldquo;indholdstype term\u0026rdquo;. Tre separate typer med adskilte arbejdsgange\nBrugerskabt Anmeldelse\nDebatindlæg\nMarketer Advertorial\nLink\nRedaktionelt Redaktionel tekst\nLyd\n"
 },
 {
+	"uri": "https://docs.folkets.dk/da/marketer/indholdstyper/",
+	"title": "Indholdstyper for marketers",
+	"tags": [],
+	"description": "",
+	"content": "Marketers har to indholdstyper som er adskilt fra den almindelige redaktionelle arbejdsgang\n Advertorial, Maskin- og læservendt\n Tekst, Primært maskinvendt\n  Advertorials vil typisk blive knyttet til en udgivelse og eventuelt forsiden på FOLKETS.DK\nBegge indholdstyper deklareres med et ikon der hedder Ad som i footeren forklares: Ad = Betalt indhold\nMarketers kan desuden deklarere yderligere i feltet \u0026lsquo;Udvidet deklaration\u0026rsquo;.\n"
+},
+{
 	"uri": "https://docs.folkets.dk/da/tags/",
 	"title": "Tags",
 	"tags": [],
