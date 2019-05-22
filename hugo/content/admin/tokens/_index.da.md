@@ -16,7 +16,31 @@ Samlet antal læsninger af indhold
 
 	[gac|all]
 
-## Tokens baseret på views
+
+## Content tokens baseret på views
+
+
+Nyt
+
+  [views:embed:content_tokens:embed_1]
+
+
+Delt
+
+  [views:embed:content_tokens:embed_2]
+
+
+Advertorials
+
+  [views:embed:content_tokens:embed_3]
+
+
+Set
+
+  [views:embed:content_tokens:embed_4]
+
+
+## Stat tokens baseret på views
 
 ### Justgage
 
@@ -37,25 +61,10 @@ Artikel-læsninger seneste uge
 	[views:embed:stats_nodes:embed_5]
 
 
-	
 
 
 
 
-  Nyt
-  [views:embed:content_tokens:embed_1]
-
-
-  Delt
-  [views:embed:content_tokens:embed_2]
-
-
-  Advertorials
-  [views:embed:content_tokens:embed_3]
-
-
-  Set
-  [views:embed:content_tokens:embed_4]
 
 
 #### Users
