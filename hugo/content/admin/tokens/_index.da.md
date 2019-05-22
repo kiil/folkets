@@ -36,6 +36,28 @@ Artikel-læsninger seneste uge
 
 	[views:embed:stats_nodes:embed_5]
 
+
+	
+
+
+
+
+  Nyt
+  [views:embed:content_tokens:embed_1]
+
+
+  Delt
+  [views:embed:content_tokens:embed_2]
+
+
+  Advertorials
+  [views:embed:content_tokens:embed_3]
+
+
+  Set
+  [views:embed:content_tokens:embed_4]
+
+
 #### Users
 
 Nye betalende brugere seneste uge
