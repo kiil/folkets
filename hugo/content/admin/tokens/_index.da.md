@@ -22,22 +22,22 @@ Samlet antal læsninger af indhold
 
 Nyt
 
-  [views:embed:content_tokens:embed_1]
+	[views:embed:content_tokens:embed_1]
 
 
 Delt
 
-  [views:embed:content_tokens:embed_2]
+	[views:embed:content_tokens:embed_2]
 
 
 Advertorials
 
-  [views:embed:content_tokens:embed_3]
+	[views:embed:content_tokens:embed_3]
 
 
 Set
 
-  [views:embed:content_tokens:embed_4]
+	[views:embed:content_tokens:embed_4]
 
 
 ## Stat tokens baseret på views
