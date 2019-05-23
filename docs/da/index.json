@@ -63,6 +63,13 @@
 	"content": "Marketers har to indholdstyper som er adskilt fra den almindelige redaktionelle arbejdsgang\n Advertorial, Maskin- og læservendt\n Tekst, Primært maskinvendt\n  Advertorials vil typisk blive knyttet til en udgivelse og eventuelt forsiden på FOLKETS.DK\nBegge indholdstyper deklareres med et ikon der hedder  som i footeren forklares:  = Betalt indhold\nMarketers kan desuden deklarere yderligere i feltet \u0026lsquo;Udvidet deklaration\u0026rsquo;.\n"
 },
 {
+	"uri": "https://docs.folkets.dk/da/admin/marketing/",
+	"title": "Marketing",
+	"tags": [],
+	"description": "",
+	"content": " Knapper der linker til konvertering To slags:\n In content (kontekst leveret af content paywall) Out content (skræddersyede)  In content skal have class\nin-content-goal-source  Out content skal have class\nout-content-goal-source  "
+},
+{
 	"uri": "https://docs.folkets.dk/da/tags/",
 	"title": "Tags",
 	"tags": [],
