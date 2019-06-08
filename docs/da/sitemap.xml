@@ -74,6 +74,14 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/semantik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/kode/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/tags/</loc>
     <priority>0</priority>
     <xhtml:link

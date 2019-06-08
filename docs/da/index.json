@@ -67,7 +67,21 @@
 	"title": "Marketing",
 	"tags": [],
 	"description": "",
-	"content": " Knapper der linker til konvertering To slags:\n In content (kontekst leveret af content paywall) Out content (skræddersyede)  In content skal have class\nin-content-goal-source  Out content skal have class\nout-content-goal-source  "
+	"content": " Knapper der linker til konvertering To slags:\n In content (kontekst leveret af content paywall)  metered premium  Out content (skræddersyede)  In content skal have class\nin-content-goal-source-premium in-content-goal-source-metered  Out content skal have class\nout-content-goal-source  "
+},
+{
+	"uri": "https://docs.folkets.dk/da/admin/semantik/",
+	"title": "Semantik",
+	"tags": [],
+	"description": "",
+	"content": "På indholdssider er h1 reserveret til rubrik (typisk det samme som \u0026ldquo;page title\u0026rdquo;) h2 til mellemrubrikker og h2 til underrubrik\ng3 bruges til media objects\nfaktaboks-titel - h4\npane-title, block-title, - h5\n"
+},
+{
+	"uri": "https://docs.folkets.dk/da/admin/kode/",
+	"title": "Snippets",
+	"tags": [],
+	"description": "",
+	"content": " Tooltip enable \u0026lt;script\u0026gt; jQuery(document).ready(function($) { $('[data-toggle=\u0026quot;tooltip\u0026quot;]').tooltip() }) \u0026lt;/script\u0026gt;  "
 },
 {
 	"uri": "https://docs.folkets.dk/da/tags/",
