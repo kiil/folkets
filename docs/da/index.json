@@ -81,7 +81,7 @@
 	"title": "Snippets",
 	"tags": [],
 	"description": "",
-	"content": " Tooltip enable \u0026lt;script\u0026gt; jQuery(document).ready(function($) { $('[data-toggle=\u0026quot;tooltip\u0026quot;]').tooltip() }) \u0026lt;/script\u0026gt;  "
+	"content": " Tooltip enable \u0026lt;script\u0026gt; jQuery(document).ready(function($) { $('[data-toggle=\u0026quot;tooltip\u0026quot;]').tooltip() }) \u0026lt;/script\u0026gt;  tablesorter-sort Add class\n\u0026lt;script type=\u0026quot;text/javascript\u0026quot;\u0026gt; jQuery(document).ready(function($) { $(\u0026quot;.views-table\u0026quot;).addClass(\u0026quot;tablesorter\u0026quot;); }); \u0026lt;/script\u0026gt;  \nSort \u0026lt;script type=\u0026quot;text/javascript\u0026quot;\u0026gt; jQuery(document).ready(function($) { $(\u0026quot;.views-table\u0026quot;).tablesorter( {sortList: [[1,1]]} ); }); \u0026lt;/script\u0026gt;  Openers closer Premi Opener \u0026lt;script type=\u0026quot;text/javascript\u0026quot;\u0026gt; jQuery(document).ready(function($) { if ($.cookie('abo')) { $('.premi').attr('style', 'display: block !important'); } }); \u0026lt;/script\u0026gt;  "
 },
 {
 	"uri": "https://docs.folkets.dk/da/tags/",
