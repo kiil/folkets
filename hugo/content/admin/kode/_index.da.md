@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 </script>
 ```
 
-## Openers closer
+## Openers closers
 
 ### Premi Opener
 
@@ -45,6 +45,18 @@ jQuery(document).ready(function($) {
 	jQuery(document).ready(function($) {
 if ($.cookie('abo')) {
     $('.premi').attr('style', 'display: block !important');
+}
+});
+</script>
+```
+
+### Abon opener
+
+```js
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+if ($.cookie('abo')) {
+    $('.abon').attr('style', 'display: block !important');
 }
 });
 </script>
