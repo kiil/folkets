@@ -2,6 +2,47 @@
 title: Snippets
 ---
 
+## simpel tæller
+
+```html
+<p class="counter" data-count=some-number>0</p>
+
+```
+
+```js
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+$('.counter').each(function() {
+  var $this = $(this),
+      // 400 can be changed or removed if just value shopwn or different count internval
+      countTo = 400 - $this.attr('data-count');
+
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 8000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+
+  });
+
+});
+</script>
+
+```
+
 ## Tooltip enable
 
 ```js

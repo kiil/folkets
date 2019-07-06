@@ -12,20 +12,20 @@
     <title>Snippets :: Dokumentation for FOLKETS</title>
 
     
-    <link href="/css/nucleus.css?1559986163" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1559986163" rel="stylesheet">
-    <link href="/css/hybrid.css?1559986163" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1559986163" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1559986163" rel="stylesheet">
-    <link href="/css/auto-complete.css?1559986163" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1559986163" rel="stylesheet">
-    <link href="/css/theme.css?1559986163" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1559986163" rel="stylesheet">
+    <link href="/css/nucleus.css?1562405047" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1562405047" rel="stylesheet">
+    <link href="/css/hybrid.css?1562405047" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1562405047" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1562405047" rel="stylesheet">
+    <link href="/css/auto-complete.css?1562405047" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1562405047" rel="stylesheet">
+    <link href="/css/theme.css?1562405047" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1562405047" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1559986163" rel="stylesheet">
+      <link href="/css/theme-red.css?1562405047" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1559986163"></script>
+    <script src="/js/jquery-3.3.1.min.js?1562405047"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1559986163"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1559986163"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1562405047"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1562405047"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/da";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1559986163"></script>
+<script type="text/javascript" src="/js/search.js?1562405047"></script>
 
     
   </div>
@@ -530,6 +530,7 @@
 <ul>
 <li>
 <ul>
+<li><a href="#simpel-tæller">simpel tæller</a></li>
 <li><a href="#tooltip-enable">Tooltip enable</a></li>
 <li><a href="#tablesorter-sort">tablesorter-sort</a>
 <ul>
@@ -573,6 +574,45 @@
 
 
 	
+
+<h2 id="simpel-tæller">simpel tæller</h2>
+
+<pre><code class="language-html">&lt;p class=&quot;counter&quot; data-count=some-number&gt;0&lt;/p&gt;
+
+</code></pre>
+
+<pre><code class="language-js">&lt;script type=&quot;text/javascript&quot;&gt;
+jQuery(document).ready(function($) {
+
+$('.counter').each(function() {
+  var $this = $(this),
+      // 400 can be changed or removed if just value shopwn or different count internval
+      countTo = 400 - $this.attr('data-count');
+
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 8000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+
+  });
+
+});
+&lt;/script&gt;
+
+</code></pre>
 
 <h2 id="tooltip-enable">Tooltip enable</h2>
 
@@ -1112,20 +1152,20 @@ if (!$.cookie('abo')) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1559986163"></script>
-    <script src="/js/perfect-scrollbar.min.js?1559986163"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1559986163"></script>
-    <script src="/js/jquery.sticky.js?1559986163"></script>
-    <script src="/js/featherlight.min.js?1559986163"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1559986163"></script>
-    <script src="/js/highlight.pack.js?1559986163"></script>
+    <script src="/js/clipboard.min.js?1562405047"></script>
+    <script src="/js/perfect-scrollbar.min.js?1562405047"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1562405047"></script>
+    <script src="/js/jquery.sticky.js?1562405047"></script>
+    <script src="/js/featherlight.min.js?1562405047"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1562405047"></script>
+    <script src="/js/highlight.pack.js?1562405047"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1559986163"></script>
-    <script src="/js/learn.js?1559986163"></script>
-    <script src="/js/hugo-learn.js?1559986163"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1562405047"></script>
+    <script src="/js/learn.js?1562405047"></script>
+    <script src="/js/hugo-learn.js?1562405047"></script>
 
-    <link href="/mermaid/mermaid.css?1559986163" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1559986163"></script>
+    <link href="/mermaid/mermaid.css?1562405047" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1562405047"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
