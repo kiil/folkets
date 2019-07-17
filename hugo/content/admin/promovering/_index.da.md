@@ -27,13 +27,13 @@ Template til body / brødtekst:
 <div class="modal-body" markdown="1">
   Selve
   indholdet
-	her
+  her
 
-	<a href="/na/abonnement" role="button" class="btn btn-lg btn-danger btn-block">Se fordele</a>
+  <a href="/na/abonnement" role="button" class="btn btn-lg btn-danger btn-block">Se fordele</a>
 
-	<div class="text-right text-muted small">
-	Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
-	</div>
+  <div class="text-right text-muted small">
+  Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
+  </div>
 </div>
 <!-- Vises overalt - husk cta button - slut -->
 
