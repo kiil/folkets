@@ -9,7 +9,7 @@ Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over
 
 Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.
 
-Kampagner er sat op i indholdstypen 'tekst' og med typen taksonomitypen 'Modal'.
+Kampagner er sat op i indholdstypen 'tekst' og med typen taksonomitypen 'Modal'. Findes også samlet her [/promovering](https://www.folkets.dk/promovering).
 
 Template til body / brødtekst:
 
