@@ -5,7 +5,7 @@ title: Promovering
 
 Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.
 
-Kapmagne kører under menu-bar, i pop-up og over site footer. Derudover har den sin egen side.
+Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side.
 
 Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.
 
