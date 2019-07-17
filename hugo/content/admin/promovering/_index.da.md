@@ -24,10 +24,20 @@ Template til body / brødtekst:
 <!-- Vises kun i modal slut -->
 
 <!-- Vises overalt - husk cta button - start -->
-<div class="p-3" markdown="1">
-  Selve indholdet
+<div class="modal-body" markdown="1">
+  Selve
+  indholdet
+	her
+
+	<a href="/na/abonnement" role="button" class="show-to-anon-only btn btn-lg btn-danger btn-block">Se fordele</a>
+
+	<div class="text-right text-muted">
+	<small>Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a></small>
+	</div>
 </div>
 <!-- Vises overalt - husk cta button - slut -->
+
+
 
 ```
 
