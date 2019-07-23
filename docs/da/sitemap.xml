@@ -86,6 +86,10 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/style-guide/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/tags/</loc>
     <priority>0</priority>
     <xhtml:link
