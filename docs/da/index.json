@@ -95,7 +95,7 @@
 	"title": "Style guide",
 	"tags": [],
 	"description": "",
-	"content": "Logo rød: #a9000d; Grøn:#28a745\n"
+	"content": "Logo rød: #a9000d;\nGrøn, bg-primary, bg-primary, bruges også i links (a):#28a745\n"
 },
 {
 	"uri": "https://docs.folkets.dk/da/tags/",

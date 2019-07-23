@@ -3,4 +3,6 @@ title: Style guide
 
 ---
 Logo rød: #a9000d;
-Grøn:#28a745
+
+
+Grøn, bg-primary, bg-primary, bruges også i links (a):#28a745
