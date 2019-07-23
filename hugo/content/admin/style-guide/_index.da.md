@@ -2,6 +2,10 @@
 title: Style guide
 
 ---
+
+
+## Farver
+
 Logo rød: #a9000d;
 
 
