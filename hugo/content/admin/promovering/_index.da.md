@@ -46,3 +46,72 @@ Template til body / brødtekst:
 ```
 
 Vigtigt - da den kommer som popup skal der altid være mindst en fungerende button.
+
+Eksempel:
+
+```html
+<div style="background-color:gold; color:black">
+
+
+<!-- Vises kun i modal start -->
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+</div>
+<!-- Vises kun i modal slut -->
+
+<!-- Vises overalt - husk cta button - start -->
+<div class="modal-body" markdown="1">
+  <p>Vi skal bruge <span class="display-1">[views:embed:guld_brugere:embed_4]</span> betalende brugere mere for at "breake even" - vil du være en af dem?</p>
+
+  <hr class="my-3 border-top border-dark">
+  <p class="lead"><span class="brand-folkets">FOLKETS</span> kan kun eksistere i kraft af direkte opbakning fra brugerne</p>
+  <a class="btn btn-danger btn-lg out-content-goal-source" href="/na/abonnement" role="button">Se hvordan DU hjælper</a>
+
+
+
+  <div class="text-right text-muted small">
+  Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
+  </div>
+</div>
+<!-- Vises overalt - husk cta button - slut -->
+
+
+
+
+
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+$('.counter').each(function() {
+  var $this = $(this),
+      countTo = 400 - $this.attr('data-count');
+
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'swing',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+
+  });
+
+});
+</script>
+
+
+```
