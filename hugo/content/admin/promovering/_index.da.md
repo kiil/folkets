@@ -5,7 +5,11 @@ title: Promovering
 
 Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.
 
-Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side.
+Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side. Og endelig køre den som opfordringen ved paywall (via et embedded view)
+
+```html
+[views:embed:partnere:embed_1]
+```
 
 Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.
 
