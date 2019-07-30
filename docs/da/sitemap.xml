@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/bruger/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/marketer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/redaktion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/brugere/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="da"
+                href="https://docs.folkets.dk/da/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="da"
+                href="https://docs.folkets.dk/da/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/indholdstyper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/marketer/indholdstyper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/marketing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/promovering/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/semantik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/kode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/style-guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="da"
+                href="https://docs.folkets.dk/da/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/taksonomi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/tokens/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/url/</loc>
+  </url>
+  
+</urlset>
