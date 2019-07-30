@@ -27,7 +27,12 @@ Template til body / brødtekst:
 </div>
 <!-- Vises kun i modal slut -->
 
+
+
 <!-- Vises overalt - husk cta button - start -->
+
+<div style="background-color:gold; color:black">
+
 <div class="modal-body" markdown="1">
   Selve
   indholdet
@@ -39,6 +44,9 @@ Template til body / brødtekst:
   Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
   </div>
 </div>
+
+</div>
+
 <!-- Vises overalt - husk cta button - slut -->
 
 
@@ -47,11 +55,11 @@ Template til body / brødtekst:
 
 Vigtigt - da den kommer som popup skal der altid være mindst en fungerende button.
 
+Og der skal altid defineres både background-color og color.
+
 Eksempel:
 
 ```html
-<div style="background-color:gold; color:black">
-
 
 <!-- Vises kun i modal start -->
 <div class="modal-header">
@@ -61,7 +69,13 @@ Eksempel:
 </div>
 <!-- Vises kun i modal slut -->
 
+
+
+
 <!-- Vises overalt - husk cta button - start -->
+
+<div style="background-color:gold; color:black">
+
 <div class="modal-body" markdown="1">
   <p>Vi skal bruge <span class="display-1">[views:embed:guld_brugere:embed_4]</span> betalende brugere mere for at "breake even" - vil du være en af dem?</p>
 
@@ -75,13 +89,16 @@ Eksempel:
   Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
   </div>
 </div>
+
+</div>
+
 <!-- Vises overalt - husk cta button - slut -->
 
 
 
 
 
-</div>
+
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -112,6 +129,7 @@ $('.counter').each(function() {
 
 });
 </script>
+
 
 
 ```
