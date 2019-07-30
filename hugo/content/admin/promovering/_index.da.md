@@ -31,7 +31,7 @@ Template til body / brødtekst:
 
 <!-- Vises overalt - husk cta button - start -->
 
-<div style="background-color:gold; color:black">
+
 
 <div class="modal-body" markdown="1">
   Selve
@@ -45,7 +45,7 @@ Template til body / brødtekst:
   </div>
 </div>
 
-</div>
+
 
 <!-- Vises overalt - husk cta button - slut -->
 
@@ -55,7 +55,7 @@ Template til body / brødtekst:
 
 Vigtigt - da den kommer som popup skal der altid være mindst en fungerende button.
 
-Og der skal altid defineres både background-color og color.
+Definer bg-color og color kontekstuelt som klasser på blocks eller rundt om embed.
 
 Eksempel:
 
@@ -74,7 +74,7 @@ Eksempel:
 
 <!-- Vises overalt - husk cta button - start -->
 
-<div style="background-color:gold; color:black">
+
 
 <div class="modal-body" markdown="1">
   <p>Vi skal bruge <span class="display-1">[views:embed:guld_brugere:embed_4]</span> betalende brugere mere for at "breake even" - vil du være en af dem?</p>
@@ -90,7 +90,7 @@ Eksempel:
   </div>
 </div>
 
-</div>
+
 
 <!-- Vises overalt - husk cta button - slut -->
 
