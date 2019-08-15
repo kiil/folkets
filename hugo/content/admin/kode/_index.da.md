@@ -3,12 +3,16 @@ title: Snippets
 ---
 
 
+## Guage
+
+Den nuværende bør skiftes ud med http://bernii.github.io/gauge.js/ som er meget lettere
+
 
 ## Countdown
 
 
 ```html
-<span id="days"></span> <span id="hours"></span> <span id="minutes"></span>  <span id="seconds"></span>
+<span id="days"></span> <span id="hours"></span> <span id="minutes"></span> <span id="seconds"></span>
 ```
 
 ```js

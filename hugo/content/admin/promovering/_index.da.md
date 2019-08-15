@@ -38,7 +38,7 @@ Template til body / brødtekst:
   indholdet
   her
 
-  <a href="/na/abonnement" role="button" class="btn btn-lg btn-danger btn-block">Se fordele</a>
+  <a href="/na/abonnement" role="button" class="btn btn-lg btn-logo-red btn-block">Se fordele</a>
 
   <div class="text-right text-muted small">
   Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log på og slip for besked</a>
@@ -81,7 +81,7 @@ Eksempel:
 
   <hr class="my-3 border-top border-dark">
   <p class="lead"><span class="brand-folkets">FOLKETS</span> kan kun eksistere i kraft af direkte opbakning fra brugerne</p>
-  <a class="btn btn-danger btn-lg out-content-goal-source" href="/na/abonnement" role="button">Se hvordan DU hjælper</a>
+  <a class="btn btn-logo-red btn-lg out-content-goal-source" href="/na/abonnement" role="button">Se hvordan DU hjælper</a>
 
 
 
