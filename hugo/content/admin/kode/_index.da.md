@@ -3,9 +3,7 @@ title: Snippets
 ---
 
 
-## Guage
 
-Den nuværende bør skiftes ud med http://bernii.github.io/gauge.js/ som er meget lettere
 
 
 ## Countdown
