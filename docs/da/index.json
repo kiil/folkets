@@ -42,6 +42,13 @@
 	"content": ""
 },
 {
+	"uri": "https://docs.folkets.dk/da/admin/changelog/",
+	"title": "Changelog",
+	"tags": [],
+	"description": "",
+	"content": "12.09.2019 - slet infomedias opoint crawler\n"
+},
+{
 	"uri": "https://docs.folkets.dk/da/",
 	"title": "Hjælp til FOLKETS",
 	"tags": [],
