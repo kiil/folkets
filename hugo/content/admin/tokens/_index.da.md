@@ -99,6 +99,10 @@ Organisationer
 
 	[views:embed:stats_terms:embed_4]
 
+Emner
+
+	[views:embed:stats_terms:embed_5]
+
 #### Users
 
 Brugere som har udgivet mindst en artikel

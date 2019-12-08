@@ -2,9 +2,23 @@
 title: Snippets
 ---
 
+## if then jQuery
 
+```js
 
+<script type="text/javascript">
 
+jQuery(document).ready(function($) {
+
+$('cite.fn').filter(function () {
+    return $(this).text() == 'blabla';
+}).css('color', 'red');;
+
+});
+
+</script>
+
+```
 
 ## Countdown
 
