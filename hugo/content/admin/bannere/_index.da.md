@@ -6,10 +6,14 @@ title: Bannere
 Banner-fri sider
 
 ```
-subscription  
-user/\*/subscription  
+<front>
+advertorials
+anbefalinger
+annoncering
+brands/*
+na/*
 partnere
-brands/\*  
-na/\*
-support/\*
+subscription
+support/*
+user/*/subscription
 ```
