@@ -13,6 +13,7 @@ title: Bannere
 advertorials
 anbefalinger
 annoncering
+betingelser
 brands/*
 contact
 donation
@@ -20,6 +21,7 @@ kontakt
 mediedeklaration
 na/*
 partnere
+privatliv
 subscription
 support/*
 user
