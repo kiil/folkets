@@ -14,6 +14,10 @@ advertorials
 anbefalinger
 annoncering
 brands/*
+contact
+donation
+kontakt
+mediedeklaration
 na/*
 partnere
 subscription
