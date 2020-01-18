@@ -32,7 +32,7 @@
 	"title": "Bannere",
 	"tags": [],
 	"description": "",
-	"content": "Banner-fri sider\nsubscription\nuser/*/subscription\npartnere brands/*\nna/* support/*\n"
+	"content": "Banner-fri sider\nsubscription user/\\*/subscription partnere brands/\\* na/\\* support/\\* "
 },
 {
 	"uri": "https://docs.folkets.dk/da/admin/brugere/",
