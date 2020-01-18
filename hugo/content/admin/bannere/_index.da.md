@@ -10,6 +10,7 @@ title: Bannere
 
 ```
 <front>
+abonnement
 advertorials
 anbefalinger
 annoncering
@@ -22,6 +23,7 @@ mediedeklaration
 na/*
 partnere
 privatliv
+privatsponsorer
 rettelser
 subscription
 support
