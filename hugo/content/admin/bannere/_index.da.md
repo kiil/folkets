@@ -3,7 +3,7 @@ title: Bannere
 
 ---
 
-Banner-fri sider
+## Banner-fri sider
 
 ```
 <front>
