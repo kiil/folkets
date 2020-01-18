@@ -18,5 +18,9 @@ na/*
 partnere
 subscription
 support/*
+user
+user/login
+user/password
+user/register
 user/*/subscription
 ```
