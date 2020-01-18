@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -19,12 +19,15 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/bannere/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/admin/brugere/</loc>
   </url>
   
   <url>
     <loc>https://docs.folkets.dk/da/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -99,7 +102,6 @@
   
   <url>
     <loc>https://docs.folkets.dk/da/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

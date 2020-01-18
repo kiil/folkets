@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Documentation for Hugo Learn Theme">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Multilingual and i18n :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340686" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340686" rel="stylesheet">
+    <link href="/css/theme.css?1579340686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340686" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340686" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340686"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340686"></script>
 
     
   </div>
@@ -1028,14 +1028,11 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#basic-configuration">Basic configuration</a></li>
-<li><a href="#overwrite-translation-strings">Overwrite translation strings</a></li>
-<li><a href="#disable-language-switching">Disable language switching</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#basic-configuration">Basic configuration</a></li>
+    <li><a href="#overwrite-translation-strings">Overwrite translation strings</a></li>
+    <li><a href="#disable-language-switching">Disable language switching</a></li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -1060,88 +1057,64 @@
 
 
 
-	
-
-<p><strong>Learn theme</strong> is fully compatible with Hugo multilingual mode.</p>
-
+	<p><strong>Learn theme</strong> is fully compatible with Hugo multilingual mode.</p>
 <p>It provides:</p>
-
 <ul>
 <li>Translation strings for default values (English and French). Feel free to contribute !</li>
 <li>Automatic menu generation from multilingual content</li>
 <li>In-browser language switching</li>
 </ul>
-
-<p><img src="/cont/i18n/images/i18n-menu.gif" alt="I18n menu" /></p>
-
+<p><img src="/cont/i18n/images/i18n-menu.gif" alt="I18n menu"></p>
 <h2 id="basic-configuration">Basic configuration</h2>
-
 <p>After learning <a href="https://gohugo.io/content-management/multilingual">how Hugo handle multilingual websites</a>, define your languages in your <code>config.toml</code> file.</p>
-
 <p>For example with current French and English website.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#75715e"># English is the default language</span>
+<span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;en&#34;</span>
+<span style="color:#75715e"># Force to have /en/my-page and /fr/my-page routes, even for default language.</span>
+<span style="color:#a6e22e">defaultContentLanguageInSubdir</span>= <span style="color:#66d9ef">true</span>
 
-<pre><code class="language-toml"># English is the default language
-defaultContentLanguage = &quot;en&quot;
-# Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir= true
+[<span style="color:#a6e22e">Languages</span>]
+[<span style="color:#a6e22e">Languages</span>.<span style="color:#a6e22e">en</span>]
+<span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Documentation for Hugo Learn Theme&#34;</span>
+<span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">1</span>
+<span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;English&#34;</span>
 
-[Languages]
-[Languages.en]
-title = &quot;Documentation for Hugo Learn Theme&quot;
-weight = 1
-languageName = &quot;English&quot;
-
-[Languages.fr]
-title = &quot;Documentation du thème Hugo Learn&quot;
-weight = 2
-languageName = &quot;Français&quot;
-</code></pre>
-
-<p>Then, for each new page, append the <em>id</em> of the language to the file.</p>
-
+[<span style="color:#a6e22e">Languages</span>.<span style="color:#a6e22e">fr</span>]
+<span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Documentation du thème Hugo Learn&#34;</span>
+<span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">2</span>
+<span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;Français&#34;</span>
+</code></pre></div><p>Then, for each new page, append the <em>id</em> of the language to the file.</p>
 <ul>
 <li>Single file <code>my-page.md</code> is split in two files:
-
 <ul>
 <li>in English: <code>my-page.en.md</code></li>
 <li>in French: <code>my-page.fr.md</code></li>
-</ul></li>
+</ul>
+</li>
 <li>Single file <code>_index.md</code> is split in two files:
-
 <ul>
 <li>in English: <code>_index.en.md</code></li>
 <li>in French: <code>_index.fr.md</code></li>
-</ul></li>
 </ul>
-
-<div class="notices info" ><p>Be aware that only translated pages are displayed in menu. It&rsquo;s not replaced with default language content.</p>
+</li>
+</ul>
+<div class="notices info" ><p>Be aware that only translated pages are displayed in menu. It's not replaced with default language content.</p>
 </div>
-
 
 <div class="notices tip" ><p>Use <a href="https://gohugo.io/content-management/multilingual/#translate-your-content">slug</a> Front Matter parameter to translate urls too.</p>
 </div>
 
-
 <h2 id="overwrite-translation-strings">Overwrite translation strings</h2>
-
 <p>Translations strings are used for common default values used in the theme (<em>Edit this page</em> button, <em>Search placeholder</em> and so on). Translations are available in french and english but you may use another language or want to override default values.</p>
-
 <p>To override these values, create a new file in your local i18n folder <code>i18n/&lt;idlanguage&gt;.toml</code> and inspire yourself from the theme <code>themes/hugo-theme-learn/i18n/en.toml</code></p>
-
 <p>By the way, as these translations could be used by other people, please take the time to propose a translation by <a href="https://github.com/matcornic/hugo-theme-learn/pulls">making a PR</a> to the theme !</p>
-
 <h2 id="disable-language-switching">Disable language switching</h2>
-
 <p>Switching the language in the browser is a great feature, but for some reasons you may want to disable it.</p>
-
 <p>Just set <code>disableLanguageSwitchingButton=true</code> in your <code>config.toml</code></p>
-
-<pre><code class="language-toml">[params]
-  # When using mulitlingual website, disable the switch language button.
-  disableLanguageSwitchingButton = true
-</code></pre>
-
-<p><img src="/cont/i18n/images/i18n-menu.gif" alt="I18n menu" /></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[<span style="color:#a6e22e">params</span>]
+  <span style="color:#75715e"># When using mulitlingual website, disable the switch language button.</span>
+  <span style="color:#a6e22e">disableLanguageSwitchingButton</span> = <span style="color:#66d9ef">true</span>
+</code></pre></div><p><img src="/cont/i18n/images/i18n-menu.gif" alt="I18n menu"></p>
 
 
 
@@ -1711,20 +1684,20 @@ languageName = &quot;Français&quot;
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340686"></script>
+    <script src="/js/jquery.sticky.js?1579340686"></script>
+    <script src="/js/featherlight.min.js?1579340686"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340686"></script>
+    <script src="/js/highlight.pack.js?1579340686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340686"></script>
+    <script src="/js/learn.js?1579340686"></script>
+    <script src="/js/hugo-learn.js?1579340686"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340686" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340686"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

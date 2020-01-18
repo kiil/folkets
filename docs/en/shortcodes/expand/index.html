@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Displays an expandable/collapsible section of text on your page">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Expand :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340686" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340686" rel="stylesheet">
+    <link href="/css/theme.css?1579340686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340686" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340686" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340686"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340686"></script>
 
     
   </div>
@@ -1028,13 +1028,9 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#usage">Usage</a></li>
-</ul></li>
-<li><a href="#demo">Demo</a></li>
-</ul>
+  <ul>
+    <li><a href="#usage">Usage</a></li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -1058,57 +1054,39 @@
         
 
 
-
-
 <p>The Expand shortcode displays an expandable/collapsible section of text on your page.
 Here is an example</p>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-        <span>
-        
-        
-        Expand me...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<!-- raw HTML omitted -->
+<pre><code>    Expand me...
+	
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+</code></pre>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    </div>
-</div>
-
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<pre><code>&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
 <h2 id="usage">Usage</h2>
-
-<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is &ldquo;Expand me&hellip;&rdquo;)</p>
-
+<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is &ldquo;Expand me&hellip;&quot;)</p>
 <pre><code>{{%expand &quot;Is this learn theme rocks ?&quot; %}}Yes !.{{% /expand%}}
 </code></pre>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-        <span>
-        
-        
-        Is this learn theme rocks ?
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        Yes !
-    </div>
-</div>
-
+<!-- raw HTML omitted -->
+<pre><code>    Is this learn theme rocks ?
+	
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+    Yes !
+&lt;/div&gt;
+</code></pre>
+<!-- raw HTML omitted -->
 <h1 id="demo">Demo</h1>
-
 <pre><code>{{%expand%}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -1118,26 +1096,21 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 {{% /expand%}}
 </code></pre>
-
-<div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-        <span>
-        
-        
-        Expand me...
-        
-        </span>
-    </div>
-    <div class="expand-content" style="display: none;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+<!-- raw HTML omitted -->
+<pre><code>    Expand me...
+	
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;expand-content&quot; style=&quot;display: none;&quot;&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+</code></pre>
+<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-</div>
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 
 
 <footer class=" footline" >
@@ -1705,20 +1678,20 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340686"></script>
+    <script src="/js/jquery.sticky.js?1579340686"></script>
+    <script src="/js/featherlight.min.js?1579340686"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340686"></script>
+    <script src="/js/highlight.pack.js?1579340686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340686"></script>
+    <script src="/js/learn.js?1579340686"></script>
+    <script src="/js/hugo-learn.js?1579340686"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340686" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340686"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -198,6 +198,21 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/en/tags/documentation/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/tags/documentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/tags/documentation/"
+                />
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/en/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -220,7 +235,6 @@
   <url>
     <loc>https://docs.folkets.dk/en/tags/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="da"
@@ -239,25 +253,8 @@
   </url>
   
   <url>
-    <loc>https://docs.folkets.dk/en/tags/documentation/</loc>
-    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://docs.folkets.dk/fr/tags/documentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://docs.folkets.dk/en/tags/documentation/"
-                />
-  </url>
-  
-  <url>
     <loc>https://docs.folkets.dk/en/tags/tutorial/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -300,7 +297,6 @@
   
   <url>
     <loc>https://docs.folkets.dk/en/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="da"
@@ -385,34 +381,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/notice/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://docs.folkets.dk/en/showcase/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://docs.folkets.dk/fr/vitrine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://docs.folkets.dk/en/showcase/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://docs.folkets.dk/en/shortcodes/siteparam/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://docs.folkets.dk/fr/shortcodes/siteparam/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://docs.folkets.dk/en/shortcodes/siteparam/"
                 />
   </url>
   
@@ -553,6 +521,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-2/test3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/en/showcase/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/vitrine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/showcase/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/en/shortcodes/siteparam/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://docs.folkets.dk/fr/shortcodes/siteparam/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://docs.folkets.dk/en/shortcodes/siteparam/"
                 />
   </url>
   

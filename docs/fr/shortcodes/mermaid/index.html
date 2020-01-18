@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Génération de diagrammes à partir de texte, dans le même style que Markdown">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Mermaid :: Documentation du thème Hugo Learn</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340687" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340687" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340687" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340687" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340687" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340687" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340687" rel="stylesheet">
+    <link href="/css/theme.css?1579340687" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340687" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340687" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340687"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340687"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340687"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/fr";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340687"></script>
 
     
   </div>
@@ -1009,18 +1009,16 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#flowchart-example">Flowchart example</a></li>
-<li><a href="#sequence-example">Sequence example</a></li>
-<li><a href="#gantt-example">GANTT Example</a>
-<ul>
-<li><a href="#class-example">Class example</a></li>
-<li><a href="#git-example">Git example</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#flowchart-example">Flowchart example</a></li>
+    <li><a href="#sequence-example">Sequence example</a></li>
+    <li><a href="#gantt-example">GANTT Example</a>
+      <ul>
+        <li><a href="#class-example">Class example</a></li>
+        <li><a href="#git-example">Git example</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -1044,14 +1042,9 @@
         
 
 
-
-
 <p><a href="https://mermaidjs.github.io/">Mermaid</a> est une bibliothèque Javascript qui permet de générer des diagrammes (séquence, état, gantt, etc.) à partir de texte, dans le même style que Markdown.</p>
-
-<p>Insérer votre code Mermaid dans un shortcode <code>mermaid</code> et c&rsquo;est tout.</p>
-
+<p>Insérer votre code Mermaid dans un shortcode <code>mermaid</code> et c'est tout.</p>
 <h2 id="flowchart-example">Flowchart example</h2>
-
 <pre><code>{{&lt;mermaid align=&quot;left&quot;&gt;}}
 graph LR;
     A[Bords droits] --&gt;|Lien texte| B(Bords arondis)
@@ -1060,9 +1053,7 @@ graph LR;
     C --&gt;|Deux| E[Résultat deux]
 {{&lt; /mermaid &gt;}}
 </code></pre>
-
 <p>renders as</p>
-
 <div class="mermaid" align="left">
 graph LR;
 	A[Bords droits] -->|Lien texte| B(Bords arondis)
@@ -1071,30 +1062,16 @@ graph LR;
 	C -->|Deux| E[Résultat deux]
 </div>
 
-
 <p>or you can use this alternative syntax:</p>
-
-<pre>
-```mermaid
-graph LR;
-	A[Bords droits] -->|Lien texte| B(Bords arondis)
-	B --> C{Décision}
-	C -->|Un| D[Résultat un]
-	C -->|Deux| E[Résultat deux]
-```
-</pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>renders as</p>
-
-<pre><code class="language-mermaid">graph LR;
+<pre><code class="language-mermaid" data-lang="mermaid">graph LR;
 	A[Bords droits] --&gt;|Lien texte| B(Bords arondis)
 	B --&gt; C{Décision}
 	C --&gt;|Un| D[Résultat un]
 	C --&gt;|Deux| E[Résultat deux]
-</code></pre>
-
-<h2 id="sequence-example">Sequence example</h2>
-
+</code></pre><h2 id="sequence-example">Sequence example</h2>
 <pre><code>{{&lt;mermaid&gt;}}
 sequenceDiagram
     participant Alice
@@ -1109,9 +1086,7 @@ sequenceDiagram
     Bob--&gt;John: Au top!
 {{&lt; /mermaid &gt;}}
 </code></pre>
-
 <p>renders as</p>
-
 <div class="mermaid" align="center">
 sequenceDiagram
 	participant Alice
@@ -1126,28 +1101,11 @@ sequenceDiagram
 	Bob-->John: Au top!
 </div>
 
-
 <p>or you can use this alternative syntax:</p>
-
-<pre>
-```mermaid
-sequenceDiagram
-	participant Alice
-	participant Bob
-	Alice->>John: Salut John, comment vas-tu?
-	loop Vérification
-		John->John: Se bat contre l'hyponcodrie.
-	end
-	Note right of John: Les pensées rationnelles<br/>prédominent...
-	John-->Alice: Super!
-	John->Bob: Et toi?
-	Bob-->John: Au top!
-```
-</pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>renders as</p>
-
-<pre><code class="language-mermaid">sequenceDiagram
+<pre><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
 	participant Alice
 	participant Bob
 	Alice-&gt;&gt;John: Salut John, comment vas-tu?
@@ -1158,10 +1116,7 @@ sequenceDiagram
 	John--&gt;Alice: Super!
 	John-&gt;Bob: Et toi?
 	Bob--&gt;John: Au top!
-</code></pre>
-
-<h2 id="gantt-example">GANTT Example</h2>
-
+</code></pre><h2 id="gantt-example">GANTT Example</h2>
 <pre><code>{{&lt;mermaid&gt;}}
 gantt
         dateFormat  YYYY-MM-DD
@@ -1177,12 +1132,10 @@ gantt
         Créer des tests pour le parser          :crit, active, 3d
         Future tâche dans le chemin critique    :crit, 5d
         Créer des tests pour le renderer        :2d
-        Ajout à Mermaid                         :1d
+        Ajout à Mermaid                      	:1d
 {{&lt; /mermaid &gt;}}
 </code></pre>
-
 <p>renders as</p>
-
 <div class="mermaid" align="center">
 gantt
 		dateFormat  YYYY-MM-DD
@@ -1201,12 +1154,11 @@ gantt
 		Ajout à Mermaid                      :1d
 </div>
 
-
 <p>or you can use this alternative syntax:</p>
-
-<pre>
-```mermaid
-gantt
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>renders as</p>
+<pre><code class="language-mermaid" data-lang="mermaid">gantt
 		dateFormat  YYYY-MM-DD
 		title Ajout de la fonctionnalité de GANTT à Mermaid
 		section Une section
@@ -1221,52 +1173,11 @@ gantt
 		Future tâche dans le chemin critique        :crit, 5d
 		Créer des tests pour le renderer           :2d
 		Ajout à Mermaid                      :1d
-```
-</pre>
-
+</code></pre><h3 id="class-example">Class example</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>renders as</p>
-
-<pre><code class="language-mermaid">gantt
-		dateFormat  YYYY-MM-DD
-		title Ajout de la fonctionnalité de GANTT à Mermaid
-		section Une section
-		Tâche complétée            :done,    des1, 2014-01-06,2014-01-08
-		Tâche en cours             :active,  des2, 2014-01-09, 3d
-		Future tâche               :         des3, after des2, 5d
-		Future tâche 2             :         des4, after des3, 5d
-		section Tâches critiques
-		Tâche complétée dans le chemin critique :crit, done, 2014-01-06,24h
-		Implémenter le parser et jison          :crit, done, after des1, 2d
-		Créer des tests pour le parser             :crit, active, 3d
-		Future tâche dans le chemin critique        :crit, 5d
-		Créer des tests pour le renderer           :2d
-		Ajout à Mermaid                      :1d
-</code></pre>
-
-<h3 id="class-example">Class example</h3>
-
-<pre>
-```mermaid
-classDiagram
-  Class01 <|-- AveryLongClass : Cool
-  Class03 *-- Class04
-  Class05 o-- Class06
-  Class07 .. Class08
-  Class09 --> C2 : Where am i?
-  Class09 --* C3
-  Class09 --|> Class07
-  Class07 : equals()
-  Class07 : Object[] elementData
-  Class01 : size()
-  Class01 : int chimp
-  Class01 : int gorilla
-  Class08 <--> C2: Cool label
-```
-</pre>
-
-<p>renders as</p>
-
-<pre><code class="language-mermaid">classDiagram
+<pre><code class="language-mermaid" data-lang="mermaid">classDiagram
   Class01 &lt;|-- AveryLongClass : Cool
   Class03 *-- Class04
   Class05 o-- Class06
@@ -1280,34 +1191,11 @@ classDiagram
   Class01 : int chimp
   Class01 : int gorilla
   Class08 &lt;--&gt; C2: Cool label
-</code></pre>
-
-<h3 id="git-example">Git example</h3>
-
-<pre>
-```mermaid
-gitGraph:
-options
-{
-  "nodeSpacing": 150,
-  "nodeRadius": 10
-}
-end
-  commit
-  branch newbranch
-  checkout newbranch
-  commit
-  commit
-  checkout master
-  commit
-  commit
-  merge newbranch
-```
-</pre>
-
+</code></pre><h3 id="git-example">Git example</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>renders as</p>
-
-<pre><code class="language-mermaid">gitGraph:
+<pre><code class="language-mermaid" data-lang="mermaid">gitGraph:
 options
 {
   &quot;nodeSpacing&quot;: 150,
@@ -1324,7 +1212,6 @@ end
   commit
   merge newbranch
 </code></pre>
-
 
 <footer class=" footline" >
 	
@@ -1875,20 +1762,20 @@ end
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340687"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340687"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340687"></script>
+    <script src="/js/jquery.sticky.js?1579340687"></script>
+    <script src="/js/featherlight.min.js?1579340687"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340687"></script>
+    <script src="/js/highlight.pack.js?1579340687"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340687"></script>
+    <script src="/js/learn.js?1579340687"></script>
+    <script src="/js/hugo-learn.js?1579340687"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340687" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340687"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

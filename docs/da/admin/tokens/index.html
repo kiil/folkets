@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Documentation for Hugo Learn Theme">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Tokens :: Dokumentation for FOLKETS</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340686" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340686" rel="stylesheet">
+    <link href="/css/theme.css?1579340686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340686" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340686" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340686"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/da";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340686"></script>
 
     
   </div>
@@ -258,6 +258,32 @@
           
           
         
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/da/admin/bannere/" title="Bannere" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/da/admin/bannere/">
+          Bannere
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
           
             
             
@@ -669,28 +695,16 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#tokens-baseret-på-moduler">Tokens baseret på moduler</a></li>
-<li><a href="#content-tokens-baseret-på-views">Content tokens baseret på views</a></li>
-<li><a href="#stat-tokens-baseret-på-views">Stat tokens baseret på views</a>
-<ul>
-<li><a href="#justgage">Justgage</a>
-<ul>
-<li><a href="#nodes">Nodes</a></li>
-<li><a href="#users">Users</a></li>
-<li><a href="#terms">Terms</a></li>
-</ul></li>
-<li><a href="#ren-værdi">&ldquo;Ren&rdquo; værdi</a>
-<ul>
-<li><a href="#nodes-1">Nodes</a></li>
-<li><a href="#terms-1">Terms</a></li>
-<li><a href="#users-1">Users</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#tokens-baseret-p-moduler">Tokens baseret på moduler</a></li>
+    <li><a href="#content-tokens-baseret-p-views">Content tokens baseret på views</a></li>
+    <li><a href="#stat-tokens-baseret-p-views">Stat tokens baseret på views</a>
+      <ul>
+        <li><a href="#justgage">Justgage</a></li>
+        <li><a href="#ren-vrdi">&ldquo;Ren&rdquo; værdi</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -715,112 +729,66 @@
 
 
 
-	
-
-<h2 id="tokens-baseret-på-moduler">Tokens baseret på moduler</h2>
-
+	<h2 id="tokens-baseret-p-moduler">Tokens baseret på moduler</h2>
 <p>Samlet antal læsninger af indhold</p>
-
 <pre><code>[gac|all]
 </code></pre>
-
-<h2 id="content-tokens-baseret-på-views">Content tokens baseret på views</h2>
-
+<h2 id="content-tokens-baseret-p-views">Content tokens baseret på views</h2>
 <p>Nyt</p>
-
 <pre><code>[views:embed:content_tokens:embed_1]
 </code></pre>
-
 <p>Delt</p>
-
 <pre><code>[views:embed:content_tokens:embed_2]
 </code></pre>
-
 <p>Advertorials</p>
-
 <pre><code>[views:embed:content_tokens:embed_3]
 </code></pre>
-
 <p>Set</p>
-
 <pre><code>[views:embed:content_tokens:embed_4]
 </code></pre>
-
-<h2 id="stat-tokens-baseret-på-views">Stat tokens baseret på views</h2>
-
+<h2 id="stat-tokens-baseret-p-views">Stat tokens baseret på views</h2>
 <h3 id="justgage">Justgage</h3>
-
 <p>Til &ldquo;målerne&rdquo;</p>
-
 <h4 id="nodes">Nodes</h4>
-
 <p>Artikler seneste uge</p>
-
 <pre><code>[views:embed:stats_nodes:embed_2]
 </code></pre>
-
 <p>Artikel-delinger seneste uge</p>
-
 <pre><code>[views:embed:stats_nodes:embed_3]
 </code></pre>
-
 <p>Artikel-læsninger seneste uge</p>
-
 <pre><code>[views:embed:stats_nodes:embed_5]
 </code></pre>
-
 <h4 id="users">Users</h4>
-
 <p>Nye betalende brugere seneste uge</p>
-
 <pre><code>[views:embed:stats_users:embed_2]
 </code></pre>
-
 <h4 id="terms">Terms</h4>
-
 <p>Brands / medier</p>
-
 <pre><code>[views:embed:stats_terms:embed_1]
 </code></pre>
-
-<h3 id="ren-værdi">&ldquo;Ren&rdquo; værdi</h3>
-
+<h3 id="ren-vrdi">&ldquo;Ren&rdquo; værdi</h3>
 <h4 id="nodes-1">Nodes</h4>
-
 <pre><code>[views:embed:stats_nodes:embed_4]
 </code></pre>
-
 <h4 id="terms-1">Terms</h4>
-
 <p>Brands / medier</p>
-
 <pre><code>[views:embed:stats_terms:embed_2]
 </code></pre>
-
 <p>Personer</p>
-
 <pre><code>[views:embed:stats_terms:embed_3]
 </code></pre>
-
 <p>Organisationer</p>
-
 <pre><code>[views:embed:stats_terms:embed_4]
 </code></pre>
-
 <p>Emner</p>
-
 <pre><code>[views:embed:stats_terms:embed_5]
 </code></pre>
-
 <h4 id="users-1">Users</h4>
-
 <p>Brugere som har udgivet mindst en artikel</p>
-
 <pre><code>[views:embed:stats_users:embed_3]
 </code></pre>
-
 <p>Betalende brugere (abo) i alt</p>
-
 <pre><code>[views:embed:stats_users:embed_1]
 </code></pre>
 
@@ -1113,6 +1081,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1169,20 +1153,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340686"></script>
+    <script src="/js/jquery.sticky.js?1579340686"></script>
+    <script src="/js/featherlight.min.js?1579340686"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340686"></script>
+    <script src="/js/highlight.pack.js?1579340686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340686"></script>
+    <script src="/js/learn.js?1579340686"></script>
+    <script src="/js/hugo-learn.js?1579340686"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340686" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340686"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

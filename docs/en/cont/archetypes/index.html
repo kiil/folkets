@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Documentation for Hugo Learn Theme">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Archetypes :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340686" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340686" rel="stylesheet">
+    <link href="/css/theme.css?1579340686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340686" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340686" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340686"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340686"></script>
 
     
   </div>
@@ -1028,13 +1028,10 @@
                     <div class="progress">
     <div class="wrapper">
 <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#archetypes-chapter">Chapter</a></li>
-<li><a href="#default">Default</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#archetypes-chapter">Chapter</a></li>
+    <li><a href="#default">Default</a></li>
+  </ul>
 </nav>
     </div>
 </div>
@@ -1058,57 +1055,40 @@
         
 
 
-
-
 <p>Using the command: <code>hugo new [relative new content path]</code>, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : <a href="https://gohugo.io/content/archetypes/">archetypes</a>.</p>
-
 <p>It is pre-configured skeleton pages with default front matter. Please refer to the documentation for types of page to understand the differences.</p>
-
 <h2 id="archetypes-chapter">Chapter</h2>
-
 <p>To create a Chapter page, run the following commands</p>
-
 <pre><code>hugo new --kind chapter &lt;name&gt;/_index.md
-</code></pre>
-
-<p>It will create a page with predefined Front-Matter:</p>
-
-<pre><code class="language-markdown">+++
-title = &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
+</code></pre><p>It will create a page with predefined Front-Matter:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">+++
+title = &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
 date = {{ .Date }}
 weight = 5
 chapter = true
-pre = &quot;&lt;b&gt;X. &lt;/b&gt;&quot;
+pre = &#34;&lt;b&gt;X. &lt;/b&gt;&#34;
 +++
 
-### Chapter X
-
+<span style="color:#75715e">### Chapter X
+</span><span style="color:#75715e"></span>
 # Some Chapter title
 
 Lorem Ipsum.
-</code></pre>
-
-<h2 id="default">Default</h2>
-
+</code></pre></div><h2 id="default">Default</h2>
 <p>To create a default page, run either one of the following commands</p>
-
 <pre><code># Either
 hugo new &lt;chapter&gt;/&lt;name&gt;/_index.md
 # Or
 hugo new &lt;chapter&gt;/&lt;name&gt;.md
-</code></pre>
-
-<p>It will create a page with predefined Front-Matter:</p>
-
-<pre><code class="language-markdown">+++
-title = &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
+</code></pre><p>It will create a page with predefined Front-Matter:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">+++
+title = &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
 date =  {{ .Date }}
 weight = 5
 +++
 
 Lorem Ipsum.
-</code></pre>
-
+</code></pre></div>
 
 <footer class=" footline" >
 	
@@ -1675,20 +1655,20 @@ Lorem Ipsum.
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340686"></script>
+    <script src="/js/jquery.sticky.js?1579340686"></script>
+    <script src="/js/featherlight.min.js?1579340686"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340686"></script>
+    <script src="/js/highlight.pack.js?1579340686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340686"></script>
+    <script src="/js/learn.js?1579340686"></script>
+    <script src="/js/hugo-learn.js?1579340686"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340686" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340686"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

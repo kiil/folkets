@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.62.1" />
     <meta name="description" content="Documentation for Hugo Learn Theme">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Promovering :: Dokumentation for FOLKETS</title>
 
     
-    <link href="/css/nucleus.css?1575804860" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1575804860" rel="stylesheet">
-    <link href="/css/hybrid.css?1575804860" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1575804860" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1575804860" rel="stylesheet">
-    <link href="/css/auto-complete.css?1575804860" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1575804860" rel="stylesheet">
-    <link href="/css/theme.css?1575804860" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1575804860" rel="stylesheet">
+    <link href="/css/nucleus.css?1579340686" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1579340686" rel="stylesheet">
+    <link href="/css/hybrid.css?1579340686" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1579340686" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1579340686" rel="stylesheet">
+    <link href="/css/auto-complete.css?1579340686" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1579340686" rel="stylesheet">
+    <link href="/css/theme.css?1579340686" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1579340686" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1575804860" rel="stylesheet">
+      <link href="/css/theme-red.css?1579340686" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1575804860"></script>
+    <script src="/js/jquery-3.3.1.min.js?1579340686"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1575804860"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1575804860"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1579340686"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1579340686"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/da";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1575804860"></script>
+<script type="text/javascript" src="/js/search.js?1579340686"></script>
 
     
   </div>
@@ -258,6 +258,32 @@
           
           
         
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/da/admin/bannere/" title="Bannere" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/da/admin/bannere/">
+          Bannere
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
           
             
             
@@ -668,7 +694,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -693,93 +719,80 @@
 
 
 	<p>Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.</p>
-
 <p>Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side. Og endelig køre den som opfordringen ved paywall (via et embedded view)</p>
-
-<pre><code class="language-html">[views:embed:partnere:embed_1]
-</code></pre>
-
-<p>Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">[views:embed:partnere:embed_1]
+</code></pre></div><p>Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.</p>
 <p>Kampagner er sat op i indholdstypen &lsquo;tekst&rsquo; og med typen taksonomitypen &lsquo;Modal&rsquo;. Findes også samlet her <a href="https://www.folkets.dk/promovering">/promovering</a>.</p>
-
 <p>Template til body / brødtekst:</p>
-
-<pre><code class="language-html">
-&lt;!-- Vises kun i modal start --&gt;
-&lt;div class=&quot;modal-header&quot;&gt;
-  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
-    &lt;span aria-hidden=&quot;true&quot;&gt;×&lt;/span&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;!-- Vises kun i modal slut --&gt;
-
-
-
-&lt;!-- Vises overalt - husk cta button - start --&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises kun i modal start </span><span style="color:#75715e">--&gt;</span>
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-header&#34;</span>&gt;
+  &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;close&#34;</span> <span style="color:#a6e22e">data-dismiss</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal&#34;</span> <span style="color:#a6e22e">aria-label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Close&#34;</span>&gt;
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">aria-hidden</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;true&#34;</span>&gt;×&lt;/<span style="color:#f92672">span</span>&gt;
+  &lt;/<span style="color:#f92672">button</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises kun i modal slut </span><span style="color:#75715e">--&gt;</span>
 
 
 
-&lt;div class=&quot;modal-body&quot; markdown=&quot;1&quot;&gt;
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises overalt </span><span style="color:#75715e">-</span><span style="color:#75715e"> husk cta button </span><span style="color:#75715e">-</span><span style="color:#75715e"> start </span><span style="color:#75715e">--&gt;</span>
+
+
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-body&#34;</span> <span style="color:#a6e22e">markdown</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1&#34;</span>&gt;
   Selve
   indholdet
   her
 
-  &lt;a href=&quot;/na/abonnement&quot; role=&quot;button&quot; class=&quot;btn btn-lg btn-danger btn-logo-red btn-block&quot;&gt;Se fordele&lt;/a&gt;
+  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/na/abonnement&#34;</span> <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-lg btn-danger btn-logo-red btn-block&#34;</span>&gt;Se fordele&lt;/<span style="color:#f92672">a</span>&gt;
 
-  &lt;div class=&quot;text-right text-muted small&quot;&gt;
-  Abonnent? &lt;a class=&quot;loginlinkwithdestination&quot; href=&quot;/user/login?destination=/node/3595&quot;&gt;Log på og slip for besked&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-&lt;!-- Vises overalt - husk cta button - slut --&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-right text-muted small&#34;</span>&gt;
+  Abonnent? &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;loginlinkwithdestination&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/user/login?destination=/node/3595&#34;</span>&gt;Log på og slip for besked&lt;/<span style="color:#f92672">a</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
 
 
-</code></pre>
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises overalt </span><span style="color:#75715e">-</span><span style="color:#75715e"> husk cta button </span><span style="color:#75715e">-</span><span style="color:#75715e"> slut </span><span style="color:#75715e">--&gt;</span>
 
-<p>Vigtigt - da den kommer som popup skal der altid være mindst en fungerende button.</p>
 
+
+</code></pre></div><p>Vigtigt - da den kommer som popup skal der altid være mindst en fungerende button.</p>
 <p>Definer bg-color og color kontekstuelt som klasser på blocks eller rundt om embed.</p>
-
 <p>Eksempel:</p>
-
-<pre><code class="language-html">
-&lt;!-- Vises kun i modal start --&gt;
-&lt;div class=&quot;modal-header&quot;&gt;
-  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
-    &lt;span aria-hidden=&quot;true&quot;&gt;×&lt;/span&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;!-- Vises kun i modal slut --&gt;
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises kun i modal start </span><span style="color:#75715e">--&gt;</span>
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-header&#34;</span>&gt;
+  &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;close&#34;</span> <span style="color:#a6e22e">data-dismiss</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal&#34;</span> <span style="color:#a6e22e">aria-label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Close&#34;</span>&gt;
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">aria-hidden</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;true&#34;</span>&gt;×&lt;/<span style="color:#f92672">span</span>&gt;
+  &lt;/<span style="color:#f92672">button</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises kun i modal slut </span><span style="color:#75715e">--&gt;</span>
 
 
 
-&lt;!-- Vises overalt - husk cta button - start --&gt;
+
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises overalt </span><span style="color:#75715e">-</span><span style="color:#75715e"> husk cta button </span><span style="color:#75715e">-</span><span style="color:#75715e"> start </span><span style="color:#75715e">--&gt;</span>
 
 
 
-&lt;div class=&quot;modal-body&quot; markdown=&quot;1&quot;&gt;
-  &lt;p&gt;Vi skal bruge &lt;span class=&quot;display-1&quot;&gt;[views:embed:guld_brugere:embed_4]&lt;/span&gt; betalende brugere mere for at &quot;breake even&quot; - vil du være en af dem?&lt;/p&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-body&#34;</span> <span style="color:#a6e22e">markdown</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1&#34;</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Vi skal bruge &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display-1&#34;</span>&gt;[views:embed:guld_brugere:embed_4]&lt;/<span style="color:#f92672">span</span>&gt; betalende brugere mere for at &#34;breake even&#34; - vil du være en af dem?&lt;/<span style="color:#f92672">p</span>&gt;
 
-  &lt;hr class=&quot;my-3 border-top border-dark&quot;&gt;
-  &lt;p class=&quot;lead&quot;&gt;&lt;span class=&quot;brand-folkets&quot;&gt;FOLKETS&lt;/span&gt; kan kun eksistere i kraft af direkte opbakning fra brugerne&lt;/p&gt;
-  &lt;a class=&quot;btn btn-logo-red btn-danger btn-lg out-content-goal-source&quot; href=&quot;/na/abonnement&quot; role=&quot;button&quot;&gt;Se hvordan DU hjælper&lt;/a&gt;
-
-
-
-  &lt;div class=&quot;text-right text-muted small&quot;&gt;
-  Abonnent? &lt;a class=&quot;loginlinkwithdestination&quot; href=&quot;/user/login?destination=/node/3595&quot;&gt;Log på og slip for besked&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+  &lt;<span style="color:#f92672">hr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-3 border-top border-dark&#34;</span>&gt;
+  &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lead&#34;</span>&gt;&lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;brand-folkets&#34;</span>&gt;FOLKETS&lt;/<span style="color:#f92672">span</span>&gt; kan kun eksistere i kraft af direkte opbakning fra brugerne&lt;/<span style="color:#f92672">p</span>&gt;
+  &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-logo-red btn-danger btn-lg out-content-goal-source&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/na/abonnement&#34;</span> <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;Se hvordan DU hjælper&lt;/<span style="color:#f92672">a</span>&gt;
 
 
 
-&lt;!-- Vises overalt - husk cta button - slut --&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-right text-muted small&#34;</span>&gt;
+  Abonnent? &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;loginlinkwithdestination&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/user/login?destination=/node/3595&#34;</span>&gt;Log på og slip for besked&lt;/<span style="color:#f92672">a</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
+
+
+<span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Vises overalt </span><span style="color:#75715e">-</span><span style="color:#75715e"> husk cta button </span><span style="color:#75715e">-</span><span style="color:#75715e"> slut </span><span style="color:#75715e">--&gt;</span>
 
 
 
@@ -788,8 +801,8 @@
 
 
 
-</code></pre>
 
+</code></pre></div>
 
 
 
@@ -999,6 +1012,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1135,20 +1164,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.min.js?1575804860"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1575804860"></script>
-    <script src="/js/jquery.sticky.js?1575804860"></script>
-    <script src="/js/featherlight.min.js?1575804860"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1575804860"></script>
-    <script src="/js/highlight.pack.js?1575804860"></script>
+    <script src="/js/clipboard.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.min.js?1579340686"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1579340686"></script>
+    <script src="/js/jquery.sticky.js?1579340686"></script>
+    <script src="/js/featherlight.min.js?1579340686"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1579340686"></script>
+    <script src="/js/highlight.pack.js?1579340686"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1575804860"></script>
-    <script src="/js/learn.js?1575804860"></script>
-    <script src="/js/hugo-learn.js?1575804860"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1579340686"></script>
+    <script src="/js/learn.js?1579340686"></script>
+    <script src="/js/hugo-learn.js?1579340686"></script>
 
-    <link href="/mermaid/mermaid.css?1575804860" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1575804860"></script>
+    <link href="/mermaid/mermaid.css?1579340686" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1579340686"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
