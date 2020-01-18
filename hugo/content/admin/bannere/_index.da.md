@@ -22,6 +22,7 @@ mediedeklaration
 na/*
 partnere
 privatliv
+rettelser
 subscription
 support/*
 user
