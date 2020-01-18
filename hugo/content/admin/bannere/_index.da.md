@@ -24,6 +24,7 @@ partnere
 privatliv
 rettelser
 subscription
+support
 support/*
 user
 user/login
