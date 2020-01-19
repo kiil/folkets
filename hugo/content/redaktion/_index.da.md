@@ -19,3 +19,11 @@ https://www.folkets.dk/static/FOLKETS_DK_FARVE.png
 FOLKETS  
 
 https://www.folkets.dk/static/FOLKETS.png
+
+```
+/static/FOLKETS.png
+```
+
+'Billede' umiddelbart under Open Graph
+
+'Billede' under Schema.org: Article

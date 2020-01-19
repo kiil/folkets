@@ -18,7 +18,7 @@
 	"title": "Redaktion",
 	"tags": [],
 	"description": "",
-	"content": "Kapitel 3 Redaktion Statics som kan bruges i og:image i metatags inkluderer blandt andet:\nFOLKETS\n.DK\nhttps://www.folkets.dk/static/FOLKETS_DK_FARVE.png\nFOLKETS\nhttps://www.folkets.dk/static/FOLKETS.png\n"
+	"content": "Kapitel 3 Redaktion Statics som kan bruges i og:image i metatags inkluderer blandt andet:\nFOLKETS\n.DK\nhttps://www.folkets.dk/static/FOLKETS_DK_FARVE.png\nFOLKETS\nhttps://www.folkets.dk/static/FOLKETS.png\n/static/FOLKETS.png \u0026lsquo;Billede\u0026rsquo; umiddelbart under Open Graph\n\u0026lsquo;Billede\u0026rsquo; under Schema.org: Article\n"
 },
 {
 	"uri": "https://docs.folkets.dk/da/admin/",
