@@ -24,6 +24,12 @@ https://www.folkets.dk/static/FOLKETS.png
 /static/FOLKETS.png
 ```
 
+Andre brands
+
+```
+/static/brands/mediemoellen.png
+```
+
 'Billede' umiddelbart under Open Graph
 
 'Billede' under Schema.org: Article
