@@ -28,6 +28,13 @@
 	"content": "Kapitel 4 Admin "
 },
 {
+	"uri": "https://docs.folkets.dk/da/design/",
+	"title": "Design",
+	"tags": [],
+	"description": "",
+	"content": "Kapitel 5 Design "
+},
+{
 	"uri": "https://docs.folkets.dk/da/admin/bannere/",
 	"title": "Bannere",
 	"tags": [],
@@ -75,6 +82,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Marketers har to indholdstyper som er adskilt fra den almindelige redaktionelle arbejdsgang\n  Advertorial, Maskin- og læservendt\n  Tekst, Primært maskinvendt\n  Advertorials vil typisk blive knyttet til en udgivelse og eventuelt forsiden på FOLKETS.DK\nBegge indholdstyper deklareres med et ikon der hedder som i footeren forklares: = Betalt indhold\nMarketers kan desuden deklarere yderligere i feltet \u0026lsquo;Udvidet deklaration\u0026rsquo;.\n"
+},
+{
+	"uri": "https://docs.folkets.dk/da/design/basalt/",
+	"title": "Layouts",
+	"tags": [],
+	"description": "",
+	"content": "Op til og med 767\nFra 768 og op\nFarver Logo rød: #a9000d;\nLogo grøn Grøn, bg-primary, bg-primary, bruges også i links (a):#28a745\n"
 },
 {
 	"uri": "https://docs.folkets.dk/da/admin/marketing/",
