@@ -15,6 +15,7 @@ advertorials
 anbefalinger
 annoncering
 betingelser
+billing
 brands/*
 contact
 donation
