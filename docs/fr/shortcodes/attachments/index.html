@@ -12,20 +12,20 @@
     <title>Attachments (Pièces jointes) :: Documentation du thème Hugo Learn</title>
 
     
-    <link href="/css/nucleus.css?1586770421" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1586770421" rel="stylesheet">
-    <link href="/css/hybrid.css?1586770421" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1586770421" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1586770421" rel="stylesheet">
-    <link href="/css/auto-complete.css?1586770421" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1586770421" rel="stylesheet">
-    <link href="/css/theme.css?1586770421" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1586770421" rel="stylesheet">
+    <link href="/css/nucleus.css?1595406371" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1595406371" rel="stylesheet">
+    <link href="/css/hybrid.css?1595406371" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1595406371" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1595406371" rel="stylesheet">
+    <link href="/css/auto-complete.css?1595406371" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1595406371" rel="stylesheet">
+    <link href="/css/theme.css?1595406371" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1595406371" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1586770421" rel="stylesheet">
+      <link href="/css/theme-red.css?1595406371" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1586770421"></script>
+    <script src="/js/jquery-3.3.1.min.js?1595406371"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1586770421"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1586770421"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1595406371"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1595406371"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/fr";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1586770421"></script>
+<script type="text/javascript" src="/js/search.js?1595406371"></script>
 
     
   </div>
@@ -1041,7 +1041,11 @@
 
 
 <p>Le shortcode <em>Attachments</em> affiche une liste de pièces jointes d'une page.</p>
-<!-- raw HTML omitted -->
+<section class="attachments ">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Pièces jointes
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1096,7 +1100,7 @@
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 <h2 id="utilisation">Utilisation</h2>
 <p>Le shortcode affiche la liste de fichiers trouvés dans un <strong>dossier spécifique</strong>
 A l'heure actuelle, il supporte deux implémentations</p>
@@ -1167,7 +1171,7 @@ A l'heure actuelle, il supporte deux implémentations</p>
 <tr>
 <td align="left">pattern</td>
 <td align="left">&ldquo;.*&rdquo;</td>
-<td align="left">Une expression régulière, utilisée pour filtrer les pièces jointes par leur nom de fichier. <!-- raw HTML omitted --><!-- raw HTML omitted -->Le paramètre <strong>pattern</strong> doit être une <a href="https://en.wikipedia.org/wiki/Regular_expression">expression régulière</a>.</td>
+<td align="left">Une expression régulière, utilisée pour filtrer les pièces jointes par leur nom de fichier. <br/><br/>Le paramètre <strong>pattern</strong> doit être une <a href="https://en.wikipedia.org/wiki/Regular_expression">expression régulière</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -1181,7 +1185,11 @@ A l'heure actuelle, il supporte deux implémentations</p>
 <pre><code>{{%attachments title=&quot;Fichiers associés&quot; pattern=&quot;.*(pdf|mp4)&quot;/%}}
 </code></pre>
 <p>s'affiche comme</p>
-<!-- raw HTML omitted -->
+<section class="attachments ">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Fichiers associés
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1232,12 +1240,16 @@ A l'heure actuelle, il supporte deux implémentations</p>
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 <h4 id="modifier-le-style">Modifier le style</h4>
 <pre><code>{{%attachments style=&quot;orange&quot; /%}}
 </code></pre>
 <p>s'affiche comme</p>
-<!-- raw HTML omitted -->
+<section class="attachments orange">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Pièces jointes
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1292,11 +1304,15 @@ A l'heure actuelle, il supporte deux implémentations</p>
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 <pre><code>{{%attachments style=&quot;grey&quot; /%}}
 </code></pre>
 <p>s'affiche comme</p>
-<!-- raw HTML omitted -->
+<section class="attachments grey">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Pièces jointes
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1351,11 +1367,15 @@ A l'heure actuelle, il supporte deux implémentations</p>
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 <pre><code>{{%attachments style=&quot;blue&quot; /%}}
 </code></pre>
 <p>s'affiche comme</p>
-<!-- raw HTML omitted -->
+<section class="attachments blue">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Pièces jointes
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1410,11 +1430,15 @@ A l'heure actuelle, il supporte deux implémentations</p>
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 <pre><code>{{%attachments style=&quot;green&quot; /%}}
 </code></pre>
 <p>s'affiche comme</p>
-<!-- raw HTML omitted -->
+<section class="attachments green">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		Pièces jointes
+	</label>
 <pre><code>&lt;div class=&quot;attachments-files&quot;&gt;
 
 	
@@ -1469,7 +1493,7 @@ A l'heure actuelle, il supporte deux implémentations</p>
 
 &lt;div&gt;
 </code></pre>
-<!-- raw HTML omitted -->
+</section>
 
 
 <footer class=" footline" >
@@ -2018,20 +2042,20 @@ A l'heure actuelle, il supporte deux implémentations</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1586770421"></script>
-    <script src="/js/perfect-scrollbar.min.js?1586770421"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1586770421"></script>
-    <script src="/js/jquery.sticky.js?1586770421"></script>
-    <script src="/js/featherlight.min.js?1586770421"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1586770421"></script>
-    <script src="/js/highlight.pack.js?1586770421"></script>
+    <script src="/js/clipboard.min.js?1595406371"></script>
+    <script src="/js/perfect-scrollbar.min.js?1595406371"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1595406371"></script>
+    <script src="/js/jquery.sticky.js?1595406371"></script>
+    <script src="/js/featherlight.min.js?1595406371"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1595406371"></script>
+    <script src="/js/highlight.pack.js?1595406371"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1586770421"></script>
-    <script src="/js/learn.js?1586770421"></script>
-    <script src="/js/hugo-learn.js?1586770421"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1595406371"></script>
+    <script src="/js/learn.js?1595406371"></script>
+    <script src="/js/hugo-learn.js?1595406371"></script>
 
-    <link href="/mermaid/mermaid.css?1586770421" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1586770421"></script>
+    <link href="/mermaid/mermaid.css?1595406371" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1595406371"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

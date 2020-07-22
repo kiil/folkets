@@ -3,6 +3,23 @@ title: Promovering
 
 ---
 
+
+## Onsite campaigns
+
+- campaign-bounce (virker kun på desktop / laptop)
+- campaign-modal
+- campaign-paywall
+- campaign-top ("topscroll")
+
+
+
+
+
+
+
+## Udfaset
+
+
 Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.
 
 Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side. Og endelig køre den som opfordringen ved paywall (via et embedded view)

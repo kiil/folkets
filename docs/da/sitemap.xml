@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://docs.folkets.dk/da/platform/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/brand/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/bruger/</loc>
   </url>
   
@@ -20,6 +28,10 @@
   
   <url>
     <loc>https://docs.folkets.dk/da/design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/brand/opbygning/</loc>
   </url>
   
   <url>

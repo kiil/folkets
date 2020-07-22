@@ -77,7 +77,7 @@ List all the tags In the config.toml file you can add a shortcut to display all 
       
       <guid>https://docs.folkets.dk/en/shortcodes/attachments/</guid>
       <description>The Attachments shortcode displays a list of files attached to a page.
-&amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;  Usage The shortcurt lists files found in a specific folder.</description>
+  Attachments  &amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.en.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;   Usage The shortcurt lists files found in a specific folder.</description>
     </item>
     
     <item>
@@ -88,8 +88,11 @@ List all the tags In the config.toml file you can add a shortcut to display all 
       <guid>https://docs.folkets.dk/en/shortcodes/button/</guid>
       <description>A button is a just a clickable button with optional icon.
 {{% button href=&amp;quot;https://getgrav.org/&amp;quot; %}}Get Grav{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; %}}Get Grav with icon{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; icon-position=&amp;quot;right&amp;quot; %}}Get Grav with icon right{{% /button %}} Get Grav
+ 
 Get Grav with icon
-Get Grav with icon right</description>
+ Get Grav with icon right
+
+ </description>
     </item>
     
     <item>
@@ -98,9 +101,8 @@ Get Grav with icon right</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://docs.folkets.dk/en/credits/</guid>
-      <description>Contributors Thanks to them for making Open Source Software a better place !
-And a special thanks to @vjeantet for his work on docdock, a fork of hugo-theme-learn. v2.0.0 of this theme is inspired by his work.
-Packages and libraries  mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services&amp;hellip; horsey - Progressive and customizable autocomplete component clipboard.</description>
+      <description>Contributors Thanks to them  for making Open Source Software a better place !
+.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 162 commits   @matalo33 47 commits   @coliff 19 commits   @lierdakil 16 commits   @mdavids 10 commits   @ozobi 5 commits   @Xipas 5 commits   @pdelaby 4 commits   @Chris-Greaves 3 commits   @mreithub 3 commits   @massimeddu 3 commits   @LinuxSuRen 3 commits   @dptelecom 3 commits   @willwade 3 commits   @diemol 2 commits   @denisvm 2 commits   @gpospelov 2 commits   @hucste 2 commits   @ImgBotApp 2 commits   @jamesbooker 2 commits   @tanzaho 2 commits   @wikijm 2 commits   @lfalin 2 commits   @alexvargasbenamburg 1 commits   @AmirLavasani 1 commits   @afs2015 1 commits   @arifpedia 1 commits   @berryp 1 commits   @MrMoio 1 commits   @ChrisLasar 1 commits   @IEvangelist 1 commits   @fritzmg 1 commits   @geoffreybauduin 1 commits   @giuliov 1 commits   @haitch 1 commits   @helfper 1 commits   @zeegin 1 commits   @RealOrangeOne 1 commits   @jared-stehler 1 commits   @JianLoong 1 commits   @JohnBlood 1 commits   @JohnAllen2tgt 1 commits   @kamilchm 1 commits   @gwleclerc 1 commits   @lloydbenson 1 commits   @massimocireddu 1 commits   @sykesm 1 commits   @nvasudevan 1 commits   @owulveryck 1 commits   @654wak654 1 commits   @PierreAdam 1 commits   @qiwenmin 1 commits   @ripienaar 1 commits   @HontoNoRoger 1 commits   @pocc 1 commits   @EnigmaCurry 1 commits   @taiidani 1 commits   @exKAZUu 1 commits   @Oddly 1 commits   @shelane 1 commits   @tedyoung 1 commits   @Thiht 1 commits   @editicalu 1 commits   @fossabot 1 commits   @kamar535 1 commits   @nonumeros 1 commits   @pgorod 1 commits   @proelbtn 1 commits   And a special thanks to @vjeantet for his work on docdock, a fork of hugo-theme-learn.</description>
     </item>
     
     <item>
@@ -110,7 +112,7 @@ Packages and libraries  mermaid - generation of diagram and flowchart from text 
       
       <guid>https://docs.folkets.dk/en/shortcodes/expand/</guid>
       <description>The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example
- Expand me... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+   Expand me... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>

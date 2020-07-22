@@ -18,7 +18,7 @@
       
       <guid>https://docs.folkets.dk/fr/shortcodes/attachments/</guid>
       <description>Le shortcode Attachments affiche une liste de pièces jointes d&#39;une page.
-&amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;  Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&#39;heure actuelle, il supporte deux implémentations</description>
+  Pièces jointes  &amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;   Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&#39;heure actuelle, il supporte deux implémentations</description>
     </item>
     
     <item>
@@ -29,8 +29,11 @@
       <guid>https://docs.folkets.dk/fr/shortcodes/button/</guid>
       <description>Le shortcode button est simplement un bouton cliquable avec une icône optionnelle.
 {{% button href=&amp;quot;https://getgrav.org/&amp;quot; %}}Téléchargez Grav{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; %}}Téléchargez Grav avec icône{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; icon-position=&amp;quot;right&amp;quot; %}}Téléchargez Grav avec icône à droite{{% /button %}} Téléchargez Grav
+ 
 Téléchargez Grav avec icône
-Téléchargez Grav avec icône à droite</description>
+ Téléchargez Grav avec icône à droite
+
+ </description>
     </item>
     
     <item>
@@ -40,7 +43,7 @@ Téléchargez Grav avec icône à droite</description>
       
       <guid>https://docs.folkets.dk/fr/shortcodes/expand/</guid>
       <description>Le shortcode Expand affiche une section de texte qui se plie et se déplie. Ci-dessous un exemple.
- Déroulez-moi... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+   Déroulez-moi... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>

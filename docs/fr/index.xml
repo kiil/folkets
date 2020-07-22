@@ -63,7 +63,7 @@ Chaque tag est un lien vers une page Taxonomy, qui affiche tous les article avec
       
       <guid>https://docs.folkets.dk/fr/shortcodes/attachments/</guid>
       <description>Le shortcode Attachments affiche une liste de pièces jointes d&#39;une page.
-&amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;  Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&#39;heure actuelle, il supporte deux implémentations</description>
+  Pièces jointes  &amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;   Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&#39;heure actuelle, il supporte deux implémentations</description>
     </item>
     
     <item>
@@ -74,8 +74,11 @@ Chaque tag est un lien vers une page Taxonomy, qui affiche tous les article avec
       <guid>https://docs.folkets.dk/fr/shortcodes/button/</guid>
       <description>Le shortcode button est simplement un bouton cliquable avec une icône optionnelle.
 {{% button href=&amp;quot;https://getgrav.org/&amp;quot; %}}Téléchargez Grav{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; %}}Téléchargez Grav avec icône{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; icon-position=&amp;quot;right&amp;quot; %}}Téléchargez Grav avec icône à droite{{% /button %}} Téléchargez Grav
+ 
 Téléchargez Grav avec icône
-Téléchargez Grav avec icône à droite</description>
+ Téléchargez Grav avec icône à droite
+
+ </description>
     </item>
     
     <item>
@@ -84,9 +87,8 @@ Téléchargez Grav avec icône à droite</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://docs.folkets.dk/fr/credits/</guid>
-      <description>Contributeurs Merci à eux de rendre le monde Open Source meilleur !
-Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn. La v2.0.0 du thème est en grande partie inspirée de son travail.
-Packages et librairies  mermaid - géneration de diagrames et graphiques à partir de texte similaire à Markdown font awesome - Le framework de polices iconiques jQuery - La plus connue des librairies Javascript lunr - Lunr fournit des fonctions de recherche sans service externe horsey - Autocomplétion de composants (utiliser pour les suggestions de recherche) clipboard.</description>
+      <description>Contributeurs Merci à eux  de rendre le monde Open Source meilleur !
+.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 162 commits   @matalo33 47 commits   @coliff 19 commits   @lierdakil 16 commits   @mdavids 10 commits   @ozobi 5 commits   @Xipas 5 commits   @pdelaby 4 commits   @Chris-Greaves 3 commits   @mreithub 3 commits   @massimeddu 3 commits   @LinuxSuRen 3 commits   @dptelecom 3 commits   @willwade 3 commits   @diemol 2 commits   @denisvm 2 commits   @gpospelov 2 commits   @hucste 2 commits   @ImgBotApp 2 commits   @jamesbooker 2 commits   @tanzaho 2 commits   @wikijm 2 commits   @lfalin 2 commits   @alexvargasbenamburg 1 commits   @AmirLavasani 1 commits   @afs2015 1 commits   @arifpedia 1 commits   @berryp 1 commits   @MrMoio 1 commits   @ChrisLasar 1 commits   @IEvangelist 1 commits   @fritzmg 1 commits   @geoffreybauduin 1 commits   @giuliov 1 commits   @haitch 1 commits   @helfper 1 commits   @zeegin 1 commits   @RealOrangeOne 1 commits   @jared-stehler 1 commits   @JianLoong 1 commits   @JohnBlood 1 commits   @JohnAllen2tgt 1 commits   @kamilchm 1 commits   @gwleclerc 1 commits   @lloydbenson 1 commits   @massimocireddu 1 commits   @sykesm 1 commits   @nvasudevan 1 commits   @owulveryck 1 commits   @654wak654 1 commits   @PierreAdam 1 commits   @qiwenmin 1 commits   @ripienaar 1 commits   @HontoNoRoger 1 commits   @pocc 1 commits   @EnigmaCurry 1 commits   @taiidani 1 commits   @exKAZUu 1 commits   @Oddly 1 commits   @shelane 1 commits   @tedyoung 1 commits   @Thiht 1 commits   @editicalu 1 commits   @fossabot 1 commits   @kamar535 1 commits   @nonumeros 1 commits   @pgorod 1 commits   @proelbtn 1 commits   Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn.</description>
     </item>
     
     <item>
@@ -96,7 +98,7 @@ Packages et librairies  mermaid - géneration de diagrames et graphiques à part
       
       <guid>https://docs.folkets.dk/fr/shortcodes/expand/</guid>
       <description>Le shortcode Expand affiche une section de texte qui se plie et se déplie. Ci-dessous un exemple.
- Déroulez-moi... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+   Déroulez-moi... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>

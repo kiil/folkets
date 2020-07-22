@@ -10,5 +10,16 @@
 	<atom:link href="https://docs.folkets.dk/da/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Opbygning</title>
+      <link>https://docs.folkets.dk/da/brand/opbygning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.folkets.dk/da/brand/opbygning/</guid>
+      <description>Et brand på FOLKETS består af Masthead navn i form af bred png-fil
+1280x360, hvid baggrund - fyldes med tekst fra midt og ud til en af kanterne rammes.
+Logo - i form af firkantet png-fil Motto / slogan Beskrivelse Udvidet beskrivelse Skabere Forbrugere / læsere </description>
+    </item>
+    
   </channel>
 </rss>
