@@ -6,11 +6,97 @@ title: Promovering
 
 ## Onsite campaigns
 
-- campaign-bounce (virker kun på desktop / laptop)
+
 - campaign-modal
 - campaign-paywall
+- campaign-postcontent
 - campaign-top ("topscroll")
 
+Just links a tag manager med unik id per side. Navn er id - fx id=campaign-modal
+
+Event-kategori: campaign  
+Event-handling: Click Id
+Event-label: Page Url
+
+
+
+## Værktøjer til onsite campaigns
+
+### campaign-postcontent
+
+```html
+
+<style>
+body.content-paywall-truncated div.campaign-postcontent-wrapper {display:none;}
+</style>
+
+<div class="campaign-postcontent-wrapper">
+
+<p>Du har læst et indlæg på Folkets.</p>
+
+<p>Uden støtte ville vi ikke kunne bringe det.</p>
+
+<h3><a href="/na/abonnement" id="campaign-postcontent" class="btn btn-lg btn-logo-red btn-block btn-danger">Se fordele</a></h3>
+
+</div>
+
+```
+
+
+### campaign-modal
+
+Baseret på boostrap modal
+
+```html
+
+<div class="modal fade" id="myCampaignModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="cancel-modal close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="cancel-modal">×</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <h4>Bak op om Danmarks uafhængige medier!</h4>
+
+        <p>På Folkets har en række frie medier hjemme – medier som vel at mærke kun overlever takket være læsere som bidrager via medlemskab eller sponsorat.
+
+          <p>Måske er det noget for dig?</p>
+
+          <h3><a href="/na/abonnement" id="campaign-modal" class="btn btn-lg btn-logo-red btn-block btn-danger">Se fordele</a></h3>
+
+      </div>
+
+      <div class="modal-footer text-right text-muted small">
+        <p class="mb-0">Abonnent? <a class="loginlinkwithdestination" href="/user/login?destination=/node/3595">Log direkte på</a></p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+  jQuery(document).ready(function($) {
+
+      setTimeout(function() {
+
+        $('#myCampaignModal').modal('show');
+
+      }, 32000);
+
+  });
+</script>
+
+```
+
+
+
+
+```
 
 
 

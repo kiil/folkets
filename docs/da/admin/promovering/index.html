@@ -12,20 +12,20 @@
     <title>Promovering :: Dokumentation for FOLKETS</title>
 
     
-    <link href="/css/nucleus.css?1595406370" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1595406370" rel="stylesheet">
-    <link href="/css/hybrid.css?1595406370" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1595406370" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1595406370" rel="stylesheet">
-    <link href="/css/auto-complete.css?1595406370" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1595406370" rel="stylesheet">
-    <link href="/css/theme.css?1595406370" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1595406370" rel="stylesheet">
+    <link href="/css/nucleus.css?1598684033" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1598684033" rel="stylesheet">
+    <link href="/css/hybrid.css?1598684033" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1598684033" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1598684033" rel="stylesheet">
+    <link href="/css/auto-complete.css?1598684033" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1598684033" rel="stylesheet">
+    <link href="/css/theme.css?1598684033" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1598684033" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1595406370" rel="stylesheet">
+      <link href="/css/theme-red.css?1598684033" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1595406370"></script>
+    <script src="/js/jquery-3.3.1.min.js?1598684033"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1595406370"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1595406370"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1598684033"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1598684033"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/da";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1595406370"></script>
+<script type="text/javascript" src="/js/search.js?1598684033"></script>
 
     
   </div>
@@ -335,6 +335,32 @@
           
           
         
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/da/admin/pakker/" title="" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/da/admin/pakker/">
+          
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
           
             
             
@@ -836,7 +862,12 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#onsite-campaigns">Onsite campaigns</a></li>
-    <li><a href="#udfaset">Udfaset</a></li>
+    <li><a href="#vrktjer-til-onsite-campaigns">Værktøjer til onsite campaigns</a>
+      <ul>
+        <li><a href="#campaign-postcontent">campaign-postcontent</a></li>
+        <li><a href="#campaign-modal">campaign-modal</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -864,16 +895,93 @@
 
 	<h2 id="onsite-campaigns">Onsite campaigns</h2>
 <ul>
-<li>campaign-bounce (virker kun på desktop / laptop)</li>
 <li>campaign-modal</li>
 <li>campaign-paywall</li>
+<li>campaign-postcontent</li>
 <li>campaign-top (&ldquo;topscroll&rdquo;)</li>
 </ul>
-<h2 id="udfaset">Udfaset</h2>
-<p>Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.</p>
-<p>Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side. Og endelig køre den som opfordringen ved paywall (via et embedded view)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">[views:embed:partnere:embed_1]
-</code></pre></div><p>Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.</p>
+<p>Just links a tag manager med unik id per side. Navn er id - fx id=campaign-modal</p>
+<p>Event-kategori: campaign<br>
+Event-handling: Click Id
+Event-label: Page Url</p>
+<h2 id="vrktjer-til-onsite-campaigns">Værktøjer til onsite campaigns</h2>
+<h3 id="campaign-postcontent">campaign-postcontent</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#f92672">style</span>&gt;
+<span style="color:#f92672">body</span>.<span style="color:#a6e22e">content-paywall-truncated</span> <span style="color:#f92672">div</span>.<span style="color:#a6e22e">campaign-postcontent-wrapper</span> {<span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">none</span>;}
+&lt;/<span style="color:#f92672">style</span>&gt;
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;campaign-postcontent-wrapper&#34;</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;Du har læst et indlæg på Folkets.&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;Uden støtte ville vi ikke kunne bringe det.&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">h3</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/na/abonnement&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;campaign-postcontent&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-lg btn-logo-red btn-block btn-danger&#34;</span>&gt;Se fordele&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">h3</span>&gt;
+
+&lt;/<span style="color:#f92672">div</span>&gt;
+
+</code></pre></div><h3 id="campaign-modal">campaign-modal</h3>
+<p>Baseret på boostrap modal</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal fade&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;myCampaignModal&#34;</span> <span style="color:#a6e22e">tabindex</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;-1&#34;</span> <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dialog&#34;</span> <span style="color:#a6e22e">aria-labelledby</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;myModalLabel&#34;</span> <span style="color:#a6e22e">aria-hidden</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;true&#34;</span> <span style="color:#a6e22e">data-backdrop</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;static&#34;</span> <span style="color:#a6e22e">data-keyboard</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;false&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-dialog modal-dialog-centered&#34;</span> <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;document&#34;</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-content&#34;</span>&gt;
+      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-header&#34;</span>&gt;
+        &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cancel-modal close&#34;</span> <span style="color:#a6e22e">data-dismiss</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal&#34;</span> <span style="color:#a6e22e">aria-label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Close&#34;</span>&gt;
+          &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">aria-hidden</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;true&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cancel-modal&#34;</span>&gt;×&lt;/<span style="color:#f92672">span</span>&gt;
+        &lt;/<span style="color:#f92672">button</span>&gt;
+      &lt;/<span style="color:#f92672">div</span>&gt;
+
+      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-body&#34;</span>&gt;
+
+        &lt;<span style="color:#f92672">h4</span>&gt;Bak op om Danmarks uafhængige medier!&lt;/<span style="color:#f92672">h4</span>&gt;
+
+        &lt;<span style="color:#f92672">p</span>&gt;På Folkets har en række frie medier hjemme – medier som vel at mærke kun overlever takket være læsere som bidrager via medlemskab eller sponsorat.
+
+          &lt;<span style="color:#f92672">p</span>&gt;Måske er det noget for dig?&lt;/<span style="color:#f92672">p</span>&gt;
+
+          &lt;<span style="color:#f92672">h3</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/na/abonnement&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;campaign-modal&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-lg btn-logo-red btn-block btn-danger&#34;</span>&gt;Se fordele&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">h3</span>&gt;
+
+      &lt;/<span style="color:#f92672">div</span>&gt;
+
+      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal-footer text-right text-muted small&#34;</span>&gt;
+        &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mb-0&#34;</span>&gt;Abonnent? &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;loginlinkwithdestination&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/user/login?destination=/node/3595&#34;</span>&gt;Log direkte på&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+      &lt;/<span style="color:#f92672">div</span>&gt;
+
+    &lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+
+
+&lt;<span style="color:#f92672">script</span>&gt;
+  <span style="color:#a6e22e">jQuery</span>(document).<span style="color:#a6e22e">ready</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">$</span>) {
+
+      <span style="color:#a6e22e">setTimeout</span>(<span style="color:#66d9ef">function</span>() {
+
+        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;#myCampaignModal&#39;</span>).<span style="color:#a6e22e">modal</span>(<span style="color:#e6db74">&#39;show&#39;</span>);
+
+      }, <span style="color:#ae81ff">32000</span>);
+
+  });
+&lt;/<span style="color:#f92672">script</span>&gt;
+
+</code></pre></div><pre><code>
+
+
+
+
+
+## Udfaset
+
+
+Omhandler promovering af FOLKETS eller brands på folkets - ikke eksterne brands.
+
+Kapmagne kører i blocks der kun vises til anon under menu-bar, i pop-up og over site footer. Derudover har den sin egen side. Og endelig køre den som opfordringen ved paywall (via et embedded view)
+
+```html
+[views:embed:partnere:embed_1]
+</code></pre><p>Da egen side kan deles, skal  kampagnen være egnet til deling, men samtid kort nok til at den  kan være i modal.</p>
 <p>Kampagner er sat op i indholdstypen &lsquo;tekst&rsquo; og med typen taksonomitypen &lsquo;Promovering&rsquo;. Findes også samlet her <a href="https://www.folkets.dk/promovering">/promovering</a>.</p>
 <p>Template til body / brødtekst:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
@@ -1228,6 +1336,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1398,20 +1522,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1595406370"></script>
-    <script src="/js/perfect-scrollbar.min.js?1595406370"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1595406370"></script>
-    <script src="/js/jquery.sticky.js?1595406370"></script>
-    <script src="/js/featherlight.min.js?1595406370"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1595406370"></script>
-    <script src="/js/highlight.pack.js?1595406370"></script>
+    <script src="/js/clipboard.min.js?1598684033"></script>
+    <script src="/js/perfect-scrollbar.min.js?1598684033"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1598684033"></script>
+    <script src="/js/jquery.sticky.js?1598684033"></script>
+    <script src="/js/featherlight.min.js?1598684033"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1598684033"></script>
+    <script src="/js/highlight.pack.js?1598684033"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1595406370"></script>
-    <script src="/js/learn.js?1595406370"></script>
-    <script src="/js/hugo-learn.js?1595406370"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1598684033"></script>
+    <script src="/js/learn.js?1598684033"></script>
+    <script src="/js/hugo-learn.js?1598684033"></script>
 
-    <link href="/mermaid/mermaid.css?1595406370" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1595406370"></script>
+    <link href="/mermaid/mermaid.css?1598684033" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1598684033"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

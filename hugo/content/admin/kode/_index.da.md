@@ -2,23 +2,7 @@
 title: Snippets
 ---
 
-## if then jQuery
 
-```js
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($) {
-
-$('cite.fn').filter(function () {
-    return $(this).text() == 'blabla';
-}).css('color', 'red');;
-
-});
-
-</script>
-
-```
 
 ## Countdown
 
@@ -108,7 +92,7 @@ $('.counter').each(function() {
       //alert('finished');
     }
 
-  });  
+  });
 
   });
 
@@ -177,12 +161,21 @@ if ($.cookie('abo')) {
 </script>
 ```
 
-## Oui
 
-### Oui source
+
+
+
+
+
+## Ouibounce
+
+Baseret på Ouibounce
 
 ```js
+
 <script type="text/javascript">
+
+
 
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
@@ -194,8 +187,10 @@ if ($.cookie('abo')) {
   }
 }(this, function(require,exports,module) {
 
-return function ouibounce(el, config) {
-  var config     = config || {},
+return function ouibounce(el, custom_config) {
+  "use strict";
+
+  var config     = custom_config || {},
     aggressive   = config.aggressive || false,
     sensitivity  = setDefault(config.sensitivity, 20),
     timer        = setDefault(config.timer, 1000),
@@ -224,18 +219,20 @@ return function ouibounce(el, config) {
 
   setTimeout(attachOuiBounce, timer);
   function attachOuiBounce() {
+    if (isDisabled()) { return; }
+
     _html.addEventListener('mouseleave', handleMouseleave);
     _html.addEventListener('mouseenter', handleMouseenter);
     _html.addEventListener('keydown', handleKeydown);
   }
 
   function handleMouseleave(e) {
-    if (e.clientY > sensitivity || (checkCookieValue(cookieName, 'true') && !aggressive)) return;
+    if (e.clientY > sensitivity) { return; }
 
-    _delayTimer = setTimeout(_fireAndCallback, delay);
+    _delayTimer = setTimeout(fire, delay);
   }
 
-  function handleMouseenter(e) {
+  function handleMouseenter() {
     if (_delayTimer) {
       clearTimeout(_delayTimer);
       _delayTimer = null;
@@ -244,11 +241,11 @@ return function ouibounce(el, config) {
 
   var disableKeydown = false;
   function handleKeydown(e) {
-    if (disableKeydown || checkCookieValue(cookieName, 'true') && !aggressive) return;
-    else if(!e.metaKey || e.keyCode !== 76) return;
+    if (disableKeydown) { return; }
+    else if(!e.metaKey || e.keyCode !== 76) { return; }
 
     disableKeydown = true;
-    _delayTimer = setTimeout(_fireAndCallback, delay);
+    _delayTimer = setTimeout(fire, delay);
   }
 
   function checkCookieValue(cookieName, value) {
@@ -267,20 +264,23 @@ return function ouibounce(el, config) {
     return ret;
   }
 
-  function _fireAndCallback() {
-    fire();
-    callback();
+  function isDisabled() {
+    return checkCookieValue(cookieName, 'true') && !aggressive;
   }
 
+  // You can use ouibounce without passing an element
+  // https://github.com/carlsednaoui/ouibounce/issues/30
   function fire() {
-    // You can use ouibounce without passing an element
-    // https://github.com/carlsednaoui/ouibounce/issues/30
-    if (el) el.style.display = 'block';
+    if (isDisabled()) { return; }
+
+    if (el) { el.style.display = 'block'; }
+
+    callback();
     disable();
   }
 
-  function disable(options) {
-    var options = options || {};
+  function disable(custom_options) {
+    var options = custom_options || {};
 
     // you can pass a specific cookie expiration when using the OuiBounce API
     // ex: _ouiBounce.disable({ cookieExpire: 5 });
@@ -314,88 +314,51 @@ return function ouibounce(el, config) {
 
   return {
     fire: fire,
-    disable: disable
+    disable: disable,
+    isDisabled: isDisabled
   };
 }
+
+/*exported ouibounce */
 ;
 
 }));
 
 </script>
-```
-
-### Oui call
-
-```js
-<script>
-
-	jQuery(document).ready(function($) {
 
 
-if (!$.cookie('abo')) {
 
+<script type="text/javascript">
 
-      // if you want to use the 'fire' or 'disable' fn,
-      // you need to save OuiBounce to an object
-      var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
-        aggressive: false,
-        timer: 2000,
-        callback: function() { console.log('ouibounce fired!'); }
-      });
-
-      $('body').on('click', function() {
-        $('#ouibounce-modal').hide();
-      });
-
-      $('#ouibounce-modal .modal-footer').on('click', function() {
-        $('#ouibounce-modal').hide();
-      });
-
-      $('#ouibounce-modal .modal-ouibounce').on('click', function(e) {
-        e.stopPropagation();
-      });
-
-}
-
+var _ouibounce = ouibounce(false, {
+  sensitivity: 0,
+  aggressive: true,
+  delay: 200,
+  callback: function()  {
+      // Some commented out examples and one active:
+      // document.getElementById("navigation").style.display = "none";
+      // document.getElementById("block-views-css-ticker-block-1").style.display = "none";
+      // window.scrollTo(0, document.body.scrollHeight);
+      // jQuery(document).ready(function($) { $('#myBounceModal').modal('show') });
+      // window.scrollBy(0, 51);
+         document.getElementById("block-views-mlt-block-2").scrollIntoView();
+    }
 });
+ </script>
 
-    </script>
-```
 
-### Oui modal
 
-```html
-<div id="ouibounce-modal">
-  <div class="underlay"></div>
-  <div class="modal-ouibounce">
-    <div class="modal-title">
-      <h4>Tak fordi De læste Folkets Avis</h4>
-    </div>
-    <div class="modal-body">
-      <div class="row">
-        <div class="col-sm-8">
-          <p>Vi anbefaler et abonnement på avisen, så De</p>
-          <ul>
-            <li>slipper for reklamer og popups som denne</li>
-            <li>får adgang til alle artikler, også journalistiske</li>
-            <li>får komplet fritekstsøgning i hele arkivet</li>
-            <li>får mulighed for daglige notifikationer</li>
-            <li>får mulighed for ugentligt nyhedsbrev</li>
-            <li>er med til at sikre mediets overlevelse</li>
-          </ul>
-          <p>Det koster kun 2 kroner om dagen.</p>
-        </div>
-        <div class="col-sm-4 alert-info alert">
-          <p>Danmarks uafhængige medie</p>
-          <p class="small">Vi får ikke mediestøtte, og De finder hos os en grundlæggende kritik af systemet, som mangler i andre aviser.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-         <p class="text-center" style="margin-top: 2em;"><a class="btn btn-danger btn-primary btn-lg" href="/abonnement" role="button">Ja, tak – opret mig som abonnent!</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```

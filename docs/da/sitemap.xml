@@ -35,6 +35,11 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/admin/pakker/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/admin/bannere/</loc>
   </url>
   
