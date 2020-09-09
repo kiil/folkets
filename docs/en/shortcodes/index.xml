@@ -53,7 +53,7 @@ Get Grav with icon
       
       <guid>https://docs.folkets.dk/en/shortcodes/mermaid/</guid>
       <description>Mermaid is a library helping you to generate diagram and flowcharts from text, in a similar manner as Markdown.
-Just insert your mermaid code in the mermaid shortcode and that&#39;s it.
+Just insert your mermaid code in the mermaid shortcode and that&amp;rsquo;s it.
 Flowchart example {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}  renders as
 graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  or you can use this alternative syntax:</description>
     </item>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.62.1" />
+    <meta name="generator" content="Hugo 0.74.3" />
     <meta name="description" content="Documentation for Hugo Learn Theme">
 <meta name="author" content="Mathieu Cornic">
 
@@ -12,20 +12,20 @@
     <title>Multi-langue et i18n :: Documentation du thème Hugo Learn</title>
 
     
-    <link href="/css/nucleus.css?1598684351" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1598684351" rel="stylesheet">
-    <link href="/css/hybrid.css?1598684351" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1598684351" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1598684351" rel="stylesheet">
-    <link href="/css/auto-complete.css?1598684351" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1598684351" rel="stylesheet">
-    <link href="/css/theme.css?1598684351" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1598684351" rel="stylesheet">
+    <link href="/css/nucleus.css?1599634691" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1599634691" rel="stylesheet">
+    <link href="/css/hybrid.css?1599634691" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1599634691" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1599634691" rel="stylesheet">
+    <link href="/css/auto-complete.css?1599634691" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1599634691" rel="stylesheet">
+    <link href="/css/theme.css?1599634691" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1599634691" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1598684351" rel="stylesheet">
+      <link href="/css/theme-red.css?1599634691" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1598684351"></script>
+    <script src="/js/jquery-3.3.1.min.js?1599634691"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -66,14 +66,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1598684351"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1598684351"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1599634691"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1599634691"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.folkets.dk\/fr";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1598684351"></script>
+<script type="text/javascript" src="/js/search.js?1599634691"></script>
 
     
   </div>
@@ -1011,8 +1011,8 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#configuration-simple">Configuration simple</a></li>
-    <li><a href="#surcharger-les-translation-strings">Surcharger les translation strings</a></li>
-    <li><a href="#dsactiver-le-changement-de-langue">Désactiver le changement de langue</a></li>
+    <li><a href="#surcharger-les-translation-strings">Surcharger les <em>translation strings</em></a></li>
+    <li><a href="#désactiver-le-changement-de-langue">Désactiver le changement de langue</a></li>
   </ul>
 </nav>
     </div>
@@ -1038,10 +1038,10 @@
 
 
 
-	<p><strong>Learn</strong> est complètement compatible avec le mode multi-langue d'Hugo.</p>
+	<p><strong>Learn</strong> est complètement compatible avec le mode multi-langue d&rsquo;Hugo.</p>
 <p>Il fournit :</p>
 <ul>
-<li>Des <em>translation strings</em> pour les valeurs par défaut utilisées par le thème (Anglais et Français). N'hésitez pas à contribuer !</li>
+<li>Des <em>translation strings</em> pour les valeurs par défaut utilisées par le thème (Anglais et Français). N&rsquo;hésitez pas à contribuer !</li>
 <li>Génération automatique du menu avec le contenu multi-langue</li>
 <li>Modification de la langue dans le navigateur</li>
 </ul>
@@ -1064,7 +1064,7 @@
 <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Documentation du thème Hugo Learn&#34;</span>
 <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">2</span>
 <span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;Français&#34;</span>
-</code></pre></div><p>Puis, pour chaque nouvelle page, ajoutez <em>l'id</em> de la langue du fichier.</p>
+</code></pre></div><p>Puis, pour chaque nouvelle page, ajoutez <em>l&rsquo;id</em> de la langue du fichier.</p>
 <ul>
 <li>Le fichier <code>my-page.md</code> est découpé en deux fichiers :
 <ul>
@@ -1079,18 +1079,18 @@
 </ul>
 </li>
 </ul>
-<div class="notices info" ><p>Attention, seulement les pages traduites sont affichées dans le menu. Le contenu n'est pas remplacé par les pages de la langue par défaut.</p>
+<div class="notices info" ><p>Attention, seulement les pages traduites sont affichées dans le menu. Le contenu n&rsquo;est pas remplacé par les pages de la langue par défaut.</p>
 </div>
 
 <div class="notices tip" ><p>Utilisez le paramètre du Front Matter <a href="https://gohugo.io/content-management/multilingual/#translate-your-content">slug</a> pour traduire également les URLs.</p>
 </div>
 
 <h2 id="surcharger-les-translation-strings">Surcharger les <em>translation strings</em></h2>
-<p>Les <em>Translations strings</em> sont utilisées comme valeurs par défaut dans le thème (Bouton <em>Modifier la page</em>, Element de subsitution <em>Recherche</em>, etc.). Les traductions sont disponibles en français et en anglais mais vous pouvez utiliser n'importe quelle autre langue et surcharger avec vos propres valeurs.</p>
+<p>Les <em>Translations strings</em> sont utilisées comme valeurs par défaut dans le thème (Bouton <em>Modifier la page</em>, Element de subsitution <em>Recherche</em>, etc.). Les traductions sont disponibles en français et en anglais mais vous pouvez utiliser n&rsquo;importe quelle autre langue et surcharger avec vos propres valeurs.</p>
 <p>Pour surcharger ces valeurs, créer un nouveau fichier dans votre dossier i18n local <code>i18n/&lt;idlanguage&gt;.toml</code> et inspirez vous du thème <code>themes/hugo-theme-learn/i18n/en.toml</code></p>
-<p>D'ailleurs, ces traductions pour servir à tout le monde, donc svp prenez le temps de <a href="https://github.com/matcornic/hugo-theme-learn/pulls">proposer une Pull Request</a> !</p>
-<h2 id="dsactiver-le-changement-de-langue">Désactiver le changement de langue</h2>
-<p>Vous pouvez changer de langue directement dans le navigateur. C'est une super fonctionnalité, mais vous avez peut-être besoin de la désactiver.</p>
+<p>D&rsquo;ailleurs, ces traductions pour servir à tout le monde, donc svp prenez le temps de <a href="https://github.com/matcornic/hugo-theme-learn/pulls">proposer une Pull Request</a> !</p>
+<h2 id="désactiver-le-changement-de-langue">Désactiver le changement de langue</h2>
+<p>Vous pouvez changer de langue directement dans le navigateur. C&rsquo;est une super fonctionnalité, mais vous avez peut-être besoin de la désactiver.</p>
 <p>Pour ce faire, ajouter le paramètre <code>disableLanguageSwitchingButton=true</code> dans votre <code>config.toml</code></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[<span style="color:#a6e22e">params</span>]
   <span style="color:#75715e"># Quand vous utilisez un site en multi-langue, désactive le bouton de changment de langue.</span>
@@ -1649,20 +1649,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1598684351"></script>
-    <script src="/js/perfect-scrollbar.min.js?1598684351"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1598684351"></script>
-    <script src="/js/jquery.sticky.js?1598684351"></script>
-    <script src="/js/featherlight.min.js?1598684351"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1598684351"></script>
-    <script src="/js/highlight.pack.js?1598684351"></script>
+    <script src="/js/clipboard.min.js?1599634691"></script>
+    <script src="/js/perfect-scrollbar.min.js?1599634691"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1599634691"></script>
+    <script src="/js/jquery.sticky.js?1599634691"></script>
+    <script src="/js/featherlight.min.js?1599634691"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1599634691"></script>
+    <script src="/js/highlight.pack.js?1599634691"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1598684351"></script>
-    <script src="/js/learn.js?1598684351"></script>
-    <script src="/js/hugo-learn.js?1598684351"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1599634691"></script>
+    <script src="/js/learn.js?1599634691"></script>
+    <script src="/js/hugo-learn.js?1599634691"></script>
 
-    <link href="/mermaid/mermaid.css?1598684351" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1598684351"></script>
+    <link href="/mermaid/mermaid.css?1599634691" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1599634691"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

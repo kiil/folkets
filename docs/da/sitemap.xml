@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>https://docs.folkets.dk/da/creator/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.folkets.dk/da/redaktion/</loc>
   </url>
   
@@ -36,7 +40,6 @@
   
   <url>
     <loc>https://docs.folkets.dk/da/admin/pakker/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -95,6 +98,10 @@
   
   <url>
     <loc>https://docs.folkets.dk/da/marketer/indholdstyper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.folkets.dk/da/admin/campaigns/</loc>
   </url>
   
   <url>
