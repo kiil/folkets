@@ -32,7 +32,7 @@
 	"title": "Skaber",
 	"tags": [],
 	"description": "",
-	"content": "Kapitel 2 Skaber pandoc -s --toc --bibliography ~/Google_Drev/citations/all.json --filter pandoc-citeproc -M lang:da filename.md "
+	"content": "Kapitel 2 Skaber pandoc -s --toc --bibliography ~/Google_Drev/citations/all.json --filter pandoc-citeproc --filter mermaid-filter -M lang:da filename.md graph TD A[Client] --\u0026gt; B[Load Balancer] B --\u0026gt; C[Server01] B --\u0026gt; D[Server02] "
 },
 {
 	"uri": "https://docs.folkets.dk/da/redaktion/",
