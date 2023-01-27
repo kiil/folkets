@@ -13,5 +13,5 @@ chapter: true
 
 
 ```
-<a href="https://www.folkets.dk"><img src="https://docs.folkets.dk/da/assets/support-open-media"></a>
+<a href="https://www.folkets.dk"><img src="https://docs.folkets.dk/da/assets/support-open-media.png"></a>
 ```
