@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Redaktion on Dokumentation for FOLKETS</title>
+    <title>Redaktions on Dokumentation for FOLKETS</title>
     <link>https://docs.folkets.dk/da/redaktion/</link>
-    <description>Recent content in Redaktion on Dokumentation for FOLKETS</description>
+    <description>Recent content in Redaktions on Dokumentation for FOLKETS</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da-DK</language>
-    
-	<atom:link href="https://docs.folkets.dk/da/redaktion/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>da-DK</language><atom:link href="https://docs.folkets.dk/da/redaktion/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

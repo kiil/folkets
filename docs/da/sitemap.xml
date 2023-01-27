@@ -1,56 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://docs.folkets.dk/da/assets/</loc>
+  </url><url>
     <loc>https://docs.folkets.dk/da/platform/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/brand/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/bruger/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/marketer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/creator/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.folkets.dk/da/redaktion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/design/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/brand/opbygning/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/pakker/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/bannere/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/brugere/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -67,13 +42,9 @@
                 hreflang="da"
                 href="https://docs.folkets.dk/da/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/changelog/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/</loc>
     <xhtml:link
                 rel="alternate"
@@ -90,49 +61,29 @@
                 hreflang="da"
                 href="https://docs.folkets.dk/da/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/indholdstyper/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/marketer/indholdstyper/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/campaigns/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/design/basalt/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/marketing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/promovering/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://docs.folkets.dk/da/redaktion/</loc>
+  </url><url>
     <loc>https://docs.folkets.dk/da/redaktion/schema/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/semantik/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/kode/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/style-guide/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -149,18 +100,11 @@
                 hreflang="da"
                 href="https://docs.folkets.dk/da/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/taksonomi/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/tokens/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/da/admin/url/</loc>
   </url>
-  
 </urlset>

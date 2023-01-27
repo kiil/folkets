@@ -3,7 +3,7 @@ languageCode = "da-DK"
 defaultContentLanguage = "da"
 
 title = "Folkets"
-theme = "learn"
+theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 

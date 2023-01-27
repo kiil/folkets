@@ -6,11 +6,7 @@
     <description>Recent content in Learn Theme for Hugo on Documentation du thème Hugo Learn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da-DK</language>
-    <lastBuildDate>Thu, 29 Nov 2018 08:41:44 +0100</lastBuildDate>
-    
-	<atom:link href="https://docs.folkets.dk/fr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 29 Nov 2018 08:41:44 +0100</lastBuildDate><atom:link href="https://docs.folkets.dk/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archétypes</title>
       <link>https://docs.folkets.dk/fr/cont/archetypes/</link>
@@ -28,7 +24,7 @@ Les archétypes sont des squelettes de pages préconfigurées avec un Front Matt
       
       <guid>https://docs.folkets.dk/fr/cont/markdown/</guid>
       <description>Cette page est une copie de la doc de Grav. La seule différence porte sur la personalisation des images (taille, ajout de classes CSS&amp;hellip;) Pour des raisons évidentes, cette page n&amp;rsquo;a pas été traduites en français 😁
- Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
+Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
 Markdown is a better way to write HTML, without all the complexities and ugliness that usually accompanies it.</description>
     </item>
     
@@ -63,7 +59,8 @@ Chaque tag est un lien vers une page Taxonomy, qui affiche tous les article avec
       
       <guid>https://docs.folkets.dk/fr/shortcodes/attachments/</guid>
       <description>Le shortcode Attachments affiche une liste de pièces jointes d&amp;rsquo;une page.
-  Pièces jointes  &amp;lt;div class=&amp;quot;attachments-files&amp;quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/BachGavotteShort.mp3&amp;quot; &amp;gt; BachGavotteShort.mp3 &amp;lt;/a&amp;gt; (357 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf&amp;quot; &amp;gt; Carroll_AliceAuPaysDesMerveilles.pdf &amp;lt;/a&amp;gt; (175 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf&amp;quot; &amp;gt; adivorciarsetoca00cape.pdf &amp;lt;/a&amp;gt; (361 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/hugo.png&amp;quot; &amp;gt; hugo.png &amp;lt;/a&amp;gt; (17 ko) &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;/shortcodes/attachments.fr.files/movieselectricsheep-flock-244-32500-2.mp4&amp;quot; &amp;gt; movieselectricsheep-flock-244-32500-2.mp4 &amp;lt;/a&amp;gt; (340 ko) &amp;lt;/li&amp;gt; &amp;lt;div&amp;gt;   Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&amp;rsquo;heure actuelle, il supporte deux implémentations</description>
+Pièces jointes BachGavotteShort.mp3 (357 ko) Carroll_AliceAuPaysDesMerveilles.pdf (175 ko) adivorciarsetoca00cape.pdf (361 ko) hugo.png (17 ko) movieselectricsheep-flock-244-32500-2.mp4 (340 ko) Utilisation Le shortcode affiche la liste de fichiers trouvés dans un dossier spécifique A l&amp;rsquo;heure actuelle, il supporte deux implémentations
+Si votre page est un fichier Markdown, les pièces jointes doivent être placée dans un dossier nommé comme le nom de la page et suffixé par .</description>
     </item>
     
     <item>
@@ -73,12 +70,7 @@ Chaque tag est un lien vers une page Taxonomy, qui affiche tous les article avec
       
       <guid>https://docs.folkets.dk/fr/shortcodes/button/</guid>
       <description>Le shortcode button est simplement un bouton cliquable avec une icône optionnelle.
-{{% button href=&amp;quot;https://getgrav.org/&amp;quot; %}}Téléchargez Grav{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; %}}Téléchargez Grav avec icône{{% /button %}} {{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fas fa-download&amp;quot; icon-position=&amp;quot;right&amp;quot; %}}Téléchargez Grav avec icône à droite{{% /button %}} Téléchargez Grav
- 
-Téléchargez Grav avec icône
- Téléchargez Grav avec icône à droite
-
- </description>
+{{% button href=&amp;#34;https://getgrav.org/&amp;#34; %}}Téléchargez Grav{{% /button %}} {{% button href=&amp;#34;https://getgrav.org/&amp;#34; icon=&amp;#34;fas fa-download&amp;#34; %}}Téléchargez Grav avec icône{{% /button %}} {{% button href=&amp;#34;https://getgrav.org/&amp;#34; icon=&amp;#34;fas fa-download&amp;#34; icon-position=&amp;#34;right&amp;#34; %}}Téléchargez Grav avec icône à droite{{% /button %}} Téléchargez Grav Téléchargez Grav avec icône Téléchargez Grav avec icône à droite </description>
     </item>
     
     <item>
@@ -87,8 +79,8 @@ Téléchargez Grav avec icône
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://docs.folkets.dk/fr/credits/</guid>
-      <description>Contributeurs Merci à eux  de rendre le monde Open Source meilleur !
-.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @matcornic 162 commits   @matalo33 47 commits   @coliff 19 commits   @lierdakil 16 commits   @mdavids 10 commits   @ozobi 5 commits   @Xipas 5 commits   @pdelaby 4 commits   @Chris-Greaves 3 commits   @mreithub 3 commits   @massimeddu 3 commits   @LinuxSuRen 3 commits   @dptelecom 3 commits   @willwade 3 commits   @diemol 2 commits   @denisvm 2 commits   @gpospelov 2 commits   @hucste 2 commits   @ImgBotApp 2 commits   @jamesbooker 2 commits   @tanzaho 2 commits   @wikijm 2 commits   @lfalin 2 commits   @alexvargasbenamburg 1 commits   @AmirLavasani 1 commits   @afs2015 1 commits   @arifpedia 1 commits   @berryp 1 commits   @MrMoio 1 commits   @ChrisLasar 1 commits   @IEvangelist 1 commits   @fritzmg 1 commits   @geoffreybauduin 1 commits   @giuliov 1 commits   @haitch 1 commits   @helfper 1 commits   @zeegin 1 commits   @RealOrangeOne 1 commits   @jared-stehler 1 commits   @JianLoong 1 commits   @JohnBlood 1 commits   @JohnAllen2tgt 1 commits   @kamilchm 1 commits   @gwleclerc 1 commits   @lloydbenson 1 commits   @massimocireddu 1 commits   @sykesm 1 commits   @nvasudevan 1 commits   @owulveryck 1 commits   @654wak654 1 commits   @PierreAdam 1 commits   @qiwenmin 1 commits   @ripienaar 1 commits   @HontoNoRoger 1 commits   @pocc 1 commits   @EnigmaCurry 1 commits   @taiidani 1 commits   @exKAZUu 1 commits   @Oddly 1 commits   @shelane 1 commits   @tedyoung 1 commits   @Thiht 1 commits   @editicalu 1 commits   @fossabot 1 commits   @kamar535 1 commits   @nonumeros 1 commits   @pgorod 1 commits   @proelbtn 1 commits   Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn.</description>
+      <description>Contributeurs Merci à eux de rendre le monde Open Source meilleur !
+@matcornic 158 commits @matalo33 48 commits @coliff 19 commits @lierdakil 16 commits @mdavids 10 commits @ozobi 5 commits @Xipas 5 commits @Alan-Cha 4 commits @pdelaby 4 commits @helfper 4 commits @Chris-Greaves 3 commits @mreithub 3 commits @massimeddu 3 commits @LinuxSuRen 3 commits @dptelecom 3 commits @willwade 3 commits @diemol 2 commits @denisvm 2 commits @hucste 2 commits @ImgBotApp 2 commits @jamesbooker 2 commits @jice-lavocat 2 commits @wikijm 2 commits @lfalin 2 commits @JianLoong 2 commits @armsnyder 1 commits @afilini 1 commits @MrAkaki 1 commits @AmirLavasani 1 commits @afs2015 1 commits @arifpedia 1 commits @berryp 1 commits @MrMoio 1 commits @ChrisLasar 1 commits @DCsunset 1 commits @IEvangelist 1 commits @fritzmg 1 commits @bogaertg 1 commits @geoffreybauduin 1 commits @giuliov 1 commits @haitch 1 commits @zeegin 1 commits @RealOrangeOne 1 commits @jared-stehler 1 commits @JohnBlood 1 commits @JohnAllen2tgt 1 commits @kamilchm 1 commits @gwleclerc 1 commits @lloydbenson 1 commits @massimocireddu 1 commits @sykesm 1 commits @nvasudevan 1 commits @nnja 1 commits @owulveryck 1 commits @654wak654 1 commits @PierreAdam 1 commits @qiwenmin 1 commits @ripienaar 1 commits @stou 1 commits @razonyang 1 commits @HontoNoRoger 1 commits @pocc 1 commits @EnigmaCurry 1 commits @taiidani 1 commits @exKAZUu 1 commits @Oddly 1 commits @sandrogauci 1 commits @shelane 1 commits @mbbx6spp 1 commits @swenzel 1 commits @tedyoung 1 commits @Thiht 1 commits @editicalu 1 commits @fossabot 1 commits @kamar535 1 commits @mtbt03 1 commits @ngocbichdao 1 commits @nonumeros 1 commits @pgorod 1 commits @proelbtn 1 commits Et un grand merci à @vjeantet pour son travail sur docdock, un fork de hugo-theme-learn.</description>
     </item>
     
     <item>
@@ -98,7 +90,7 @@ Téléchargez Grav avec icône
       
       <guid>https://docs.folkets.dk/fr/shortcodes/expand/</guid>
       <description>Le shortcode Expand affiche une section de texte qui se plie et se déplie. Ci-dessous un exemple.
-   Déroulez-moi... &amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;expand-content&amp;quot; style=&amp;quot;display: none;&amp;quot;&amp;gt;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+Déroulez-moi... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
@@ -109,8 +101,8 @@ Téléchargez Grav avec icône
       <guid>https://docs.folkets.dk/fr/shortcodes/mermaid/</guid>
       <description>Mermaid est une bibliothèque Javascript qui permet de générer des diagrammes (séquence, état, gantt, etc.) à partir de texte, dans le même style que Markdown.
 Insérer votre code Mermaid dans un shortcode mermaid et c&amp;rsquo;est tout.
-Flowchart example {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Bords droits] --&amp;gt;|Lien texte| B(Bords arondis) B --&amp;gt; C{Décision} C --&amp;gt;|Un| D[Résultat un] C --&amp;gt;|Deux| E[Résultat deux] {{&amp;lt; /mermaid &amp;gt;}}  renders as
-graph LR; A[Bords droits] --|Lien texte| B(Bords arondis) B -- C{Décision} C --|Un| D[Résultat un] C --|Deux| E[Résultat deux]  or you can use this alternative syntax:</description>
+Flowchart example {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Bords droits] --&amp;gt;|Lien texte| B(Bords arondis) B --&amp;gt; C{Décision} C --&amp;gt;|Un| D[Résultat un] C --&amp;gt;|Deux| E[Résultat deux] {{&amp;lt; /mermaid &amp;gt;}} renders as
+graph LR; A[Bords droits] --&gt;|Lien texte| B(Bords arondis) B --&gt; C{Décision} C --&gt;|Un| D[Résultat un] C --&gt;|Deux| E[Résultat deux] or you can use this alternative syntax:</description>
     </item>
     
     <item>
@@ -122,9 +114,9 @@ graph LR; A[Bords droits] --|Lien texte| B(Bords arondis) B -- C{Décision} C --
       <description>Le shortcode Notice permet d&amp;rsquo;afficher 4 types de message pour vous aider à structurer votre contenu.
 Note {{% notice note %}} Une notice de type *note* {{% /notice %}} s&amp;rsquo;affiche comme
 Une notice de type note
- Info {{% notice info %}} Une notice de type *info* {{% /notice %}} s&amp;rsquo;affiche comme
+Info {{% notice info %}} Une notice de type *info* {{% /notice %}} s&amp;rsquo;affiche comme
 Une notice de type info
- Tip {{% notice tip %}} Une notice de type *tip* {{% /notice %}} s&amp;rsquo;affiche comme</description>
+Tip {{% notice tip %}} Une notice de type *tip* {{% /notice %}} s&amp;rsquo;affiche comme</description>
     </item>
     
     <item>
@@ -154,7 +146,7 @@ Une notice de type info
       <description>Les shortcode siteparam est utilisé pour vous aider à afficher des valeurs provenant des paramètres globaux du site.
 Par exemple, dans ce site, le paramètre editURL est utilisé dans le fichier config.toml
 [params] editURL = &amp;#34;https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/&amp;#34; Utilisez le shortcode siteparam pour affichier sa valeur.
-Valeur de `editURL` : {{% siteparam &amp;quot;editURL&amp;quot; %}} s&amp;rsquo;affiche comme
+Valeur de `editURL` : {{% siteparam &amp;#34;editURL&amp;#34; %}} s&amp;rsquo;affiche comme
 Valeur de editURL : https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/</description>
     </item>
     

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://docs.folkets.dk/en/basics/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/basics/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/pages/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/pages/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/archetypes/</loc>
     <xhtml:link
                 rel="alternate"
@@ -59,9 +52,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/archetypes/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/basics/requirements/</loc>
     <xhtml:link
                 rel="alternate"
@@ -73,9 +64,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/basics/requirements/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/markdown/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -88,9 +77,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/markdown/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -103,9 +90,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/basics/installation/</loc>
     <xhtml:link
                 rel="alternate"
@@ -117,9 +102,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/basics/installation/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/basics/configuration/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -132,9 +115,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/basics/configuration/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/menushortcuts/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -147,9 +128,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/menushortcuts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/basics/style-customization/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -162,13 +141,9 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/basics/style-customization/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/icons/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/i18n/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
@@ -181,9 +156,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/i18n/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/cont/tags/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -196,9 +169,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/cont/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/tags/documentation/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -211,9 +182,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/tags/documentation/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -231,9 +200,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/tags/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -251,9 +218,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/tags/tutorial/</loc>
     <lastmod>2018-11-29T08:41:44+01:00</lastmod>
     <xhtml:link
@@ -266,9 +231,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/tags/tutorial/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/attachments/</loc>
     <xhtml:link
                 rel="alternate"
@@ -280,9 +243,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/attachments/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/button/</loc>
     <xhtml:link
                 rel="alternate"
@@ -294,9 +255,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/button/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -313,9 +272,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/</loc>
     <xhtml:link
                 rel="alternate"
@@ -327,9 +284,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/credits/</loc>
     <xhtml:link
                 rel="alternate"
@@ -341,9 +296,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/credits/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/expand/</loc>
     <xhtml:link
                 rel="alternate"
@@ -355,9 +308,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/expand/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/mermaid/</loc>
     <xhtml:link
                 rel="alternate"
@@ -369,9 +320,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/mermaid/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/notice/</loc>
     <xhtml:link
                 rel="alternate"
@@ -383,9 +332,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/notice/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -397,9 +344,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -411,9 +356,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -425,9 +368,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -439,9 +380,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -453,9 +392,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -467,9 +404,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-2/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-3/</loc>
     <xhtml:link
                 rel="alternate"
@@ -481,9 +416,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-3/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-4/</loc>
     <xhtml:link
                 rel="alternate"
@@ -495,9 +428,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-4/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/test/</loc>
     <xhtml:link
                 rel="alternate"
@@ -509,9 +440,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/test/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/children/children-2/test3/</loc>
     <xhtml:link
                 rel="alternate"
@@ -523,9 +452,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/shortcodes/children/children-2/test3/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/showcase/</loc>
     <xhtml:link
                 rel="alternate"
@@ -537,9 +464,7 @@
                 hreflang="en"
                 href="https://docs.folkets.dk/en/showcase/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://docs.folkets.dk/en/shortcodes/siteparam/</loc>
     <xhtml:link
                 rel="alternate"
@@ -552,5 +477,4 @@
                 href="https://docs.folkets.dk/en/shortcodes/siteparam/"
                 />
   </url>
-  
 </urlset>

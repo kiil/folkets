@@ -5,10 +5,6 @@
     <link>https://docs.folkets.dk/da/admin/promovering/</link>
     <description>Recent content in Promovering on Dokumentation for FOLKETS</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da-DK</language>
-    
-	<atom:link href="https://docs.folkets.dk/da/admin/promovering/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>da-DK</language><atom:link href="https://docs.folkets.dk/da/admin/promovering/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

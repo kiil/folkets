@@ -5,10 +5,6 @@
     <link>https://docs.folkets.dk/fr/basics/installation/</link>
     <description>Recent content in Installation on Documentation du thème Hugo Learn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da-DK</language>
-    
-	<atom:link href="https://docs.folkets.dk/fr/basics/installation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>da-DK</language><atom:link href="https://docs.folkets.dk/fr/basics/installation/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
